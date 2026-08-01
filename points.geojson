@@ -1,0 +1,7257 @@
+{
+  "type": "FeatureCollection",
+  "name": "points",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4538.jpg",
+        "filename": "IMG_4538",
+        "altitude": 3.21844,
+        "direction": 359.495,
+        "rotation": 0,
+        "longitude": "-73.95528333333334",
+        "latitude": "40.575475000000004",
+        "timestamp": "2026-07-31T13:06:34"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95528333333334,
+          40.575475,
+          3.21844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4539.jpg",
+        "filename": "IMG_4539",
+        "altitude": 4.53317,
+        "direction": 266.305,
+        "rotation": 0,
+        "longitude": "-73.95526944444445",
+        "latitude": "40.575450000000004",
+        "timestamp": "2026-07-31T13:06:40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95526944444445,
+          40.57545,
+          4.53317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4540.jpg",
+        "filename": "IMG_4540",
+        "altitude": 5.94656,
+        "direction": 237.035,
+        "rotation": 0,
+        "longitude": "-73.95527777777778",
+        "latitude": "40.57549166666667",
+        "timestamp": "2026-07-31T13:06:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95527777777778,
+          40.57549166666667,
+          5.94656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4541.jpg",
+        "filename": "IMG_4541",
+        "altitude": 6.26758,
+        "direction": 202.756,
+        "rotation": 0,
+        "longitude": "-73.95527777777778",
+        "latitude": "40.575497222222225",
+        "timestamp": "2026-07-31T13:06:59"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95527777777778,
+          40.575497222222225,
+          6.26758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4542.jpg",
+        "filename": "IMG_4542",
+        "altitude": 5.82577,
+        "direction": 268.708,
+        "rotation": 0,
+        "longitude": "-73.95536666666666",
+        "latitude": "40.57543611111112",
+        "timestamp": "2026-07-31T13:07:19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95536666666666,
+          40.57543611111112,
+          5.82577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4543.jpg",
+        "filename": "IMG_4543",
+        "altitude": 5.30384,
+        "direction": 288.857,
+        "rotation": 0,
+        "longitude": "-73.9555888888889",
+        "latitude": "40.575425",
+        "timestamp": "2026-07-31T13:07:37"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9555888888889,
+          40.575425,
+          5.30384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4544.jpg",
+        "filename": "IMG_4544",
+        "altitude": 5.04074,
+        "direction": 313.628,
+        "rotation": 0,
+        "longitude": "-73.95599444444444",
+        "latitude": "40.57543888888889",
+        "timestamp": "2026-07-31T13:08:10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95599444444444,
+          40.57543888888889,
+          5.04074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4545.jpg",
+        "filename": "IMG_4545",
+        "altitude": 4.73013,
+        "direction": 288.622,
+        "rotation": 0,
+        "longitude": "-73.95601666666667",
+        "latitude": "40.57546944444445",
+        "timestamp": "2026-07-31T13:08:19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95601666666667,
+          40.57546944444445,
+          4.73013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4546.jpg",
+        "filename": "IMG_4546",
+        "altitude": 4.73946,
+        "direction": 254.554,
+        "rotation": 0,
+        "longitude": "-73.956",
+        "latitude": "40.57546944444445",
+        "timestamp": "2026-07-31T13:08:22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.956,
+          40.57546944444445,
+          4.73946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4547.jpg",
+        "filename": "IMG_4547",
+        "altitude": 4.7867,
+        "direction": 278.137,
+        "rotation": 0,
+        "longitude": "-73.95617777777778",
+        "latitude": "40.57542777777778",
+        "timestamp": "2026-07-31T13:08:39"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95617777777778,
+          40.57542777777778,
+          4.7867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4548.jpg",
+        "filename": "IMG_4548",
+        "altitude": 5.13366,
+        "direction": 322.412,
+        "rotation": 0,
+        "longitude": "-73.95661944444444",
+        "latitude": "40.57541666666667",
+        "timestamp": "2026-07-31T13:09:12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95661944444444,
+          40.57541666666667,
+          5.13366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4549.jpg",
+        "filename": "IMG_4549",
+        "altitude": 4.63241,
+        "direction": 4.65976,
+        "rotation": 0,
+        "longitude": "-73.956725",
+        "latitude": "40.57542777777778",
+        "timestamp": "2026-07-31T13:09:27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.956725,
+          40.57542777777778,
+          4.63241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4550.jpg",
+        "filename": "IMG_4550",
+        "altitude": 5.02311,
+        "direction": 300.614,
+        "rotation": 0,
+        "longitude": "-73.95690277777778",
+        "latitude": "40.575408333333336",
+        "timestamp": "2026-07-31T13:09:44"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95690277777778,
+          40.575408333333336,
+          5.02311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4551.jpg",
+        "filename": "IMG_4551",
+        "altitude": 5.22124,
+        "direction": 277.525,
+        "rotation": 0,
+        "longitude": "-73.95725277777778",
+        "latitude": "40.57537777777778",
+        "timestamp": "2026-07-31T13:10:14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95725277777778,
+          40.57537777777778,
+          5.22124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4552.jpg",
+        "filename": "IMG_4552",
+        "altitude": 4.99661,
+        "direction": 307.508,
+        "rotation": 0,
+        "longitude": "-73.95726111111111",
+        "latitude": "40.575388888888895",
+        "timestamp": "2026-07-31T13:10:18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95726111111111,
+          40.575388888888895,
+          4.99661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4553.jpg",
+        "filename": "IMG_4553",
+        "altitude": 4.63674,
+        "direction": 290.942,
+        "rotation": 0,
+        "longitude": "-73.95736666666667",
+        "latitude": "40.57546111111112",
+        "timestamp": "2026-07-31T13:10:33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95736666666667,
+          40.57546111111112,
+          4.63674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4554.jpg",
+        "filename": "IMG_4554",
+        "altitude": 5.88807,
+        "direction": 310.205,
+        "rotation": 0,
+        "longitude": "-73.95761944444445",
+        "latitude": "40.57537777777778",
+        "timestamp": "2026-07-31T13:10:53"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95761944444445,
+          40.57537777777778,
+          5.88807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4555.jpg",
+        "filename": "IMG_4555",
+        "altitude": 4.86664,
+        "direction": 310.036,
+        "rotation": 0,
+        "longitude": "-73.9578638888889",
+        "latitude": "40.57537777777778",
+        "timestamp": "2026-07-31T13:11:16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9578638888889,
+          40.57537777777778,
+          4.86664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4556.jpg",
+        "filename": "IMG_4556",
+        "altitude": 5.31638,
+        "direction": 269.658,
+        "rotation": 0,
+        "longitude": "-73.95793055555556",
+        "latitude": "40.57534722222223",
+        "timestamp": "2026-07-31T13:11:25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95793055555556,
+          40.57534722222223,
+          5.31638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4557.jpg",
+        "filename": "IMG_4557",
+        "altitude": 5.15358,
+        "direction": 1.15262,
+        "rotation": 0,
+        "longitude": "-73.95806944444445",
+        "latitude": "40.57534722222223",
+        "timestamp": "2026-07-31T13:11:34"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95806944444445,
+          40.57534722222223,
+          5.15358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4558.jpg",
+        "filename": "IMG_4558",
+        "altitude": 5.57143,
+        "direction": 8.16724,
+        "rotation": 0,
+        "longitude": "-73.95807777777777",
+        "latitude": "40.57514444444445",
+        "timestamp": "2026-07-31T13:12:11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95807777777777,
+          40.57514444444445,
+          5.57143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4559.jpg",
+        "filename": "IMG_4559",
+        "altitude": 4.73861,
+        "direction": 359.314,
+        "rotation": 0,
+        "longitude": "-73.95807777777777",
+        "latitude": "40.57521388888889",
+        "timestamp": "2026-07-31T13:12:31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95807777777777,
+          40.57521388888889,
+          4.73861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4560.jpg",
+        "filename": "IMG_4560",
+        "altitude": 4.76239,
+        "direction": 348.003,
+        "rotation": 0,
+        "longitude": "-73.95810833333334",
+        "latitude": "40.57508055555556",
+        "timestamp": "2026-07-31T13:13:12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95810833333334,
+          40.57508055555556,
+          4.76239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4561.jpg",
+        "filename": "IMG_4561",
+        "altitude": 6.69703,
+        "direction": 269.143,
+        "rotation": 0,
+        "longitude": "-73.95841944444444",
+        "latitude": "40.57528055555556",
+        "timestamp": "2026-07-31T13:13:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95841944444444,
+          40.57528055555556,
+          6.69703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4562.jpg",
+        "filename": "IMG_4562",
+        "altitude": 5.26445,
+        "direction": 296.19,
+        "rotation": 0,
+        "longitude": "-73.95855833333334",
+        "latitude": "40.57539444444445",
+        "timestamp": "2026-07-31T13:14:16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95855833333334,
+          40.57539444444445,
+          5.26445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4563.jpg",
+        "filename": "IMG_4563",
+        "altitude": 6.07164,
+        "direction": 241.399,
+        "rotation": 0,
+        "longitude": "-73.95863333333334",
+        "latitude": "40.57535555555556",
+        "timestamp": "2026-07-31T13:14:29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95863333333334,
+          40.57535555555556,
+          6.07164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4564.jpg",
+        "filename": "IMG_4564",
+        "altitude": 5.10522,
+        "direction": 228.824,
+        "rotation": 0,
+        "longitude": "-73.95883888888889",
+        "latitude": "40.575322222222226",
+        "timestamp": "2026-07-31T13:14:48"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95883888888889,
+          40.575322222222226,
+          5.10522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4565.jpg",
+        "filename": "IMG_4565",
+        "altitude": 5.08965,
+        "direction": 272.359,
+        "rotation": 0,
+        "longitude": "-73.95884722222222",
+        "latitude": "40.575322222222226",
+        "timestamp": "2026-07-31T13:14:50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95884722222222,
+          40.575322222222226,
+          5.08965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4566.jpg",
+        "filename": "IMG_4566",
+        "altitude": 5.56113,
+        "direction": 344.961,
+        "rotation": 0,
+        "longitude": "-73.95926666666666",
+        "latitude": "40.575272222222225",
+        "timestamp": "2026-07-31T13:15:27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95926666666666,
+          40.575272222222225,
+          5.56113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4567.jpg",
+        "filename": "IMG_4567",
+        "altitude": 5.25836,
+        "direction": 273.579,
+        "rotation": 0,
+        "longitude": "-73.95936666666667",
+        "latitude": "40.575252777777784",
+        "timestamp": "2026-07-31T13:15:37"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95936666666667,
+          40.575252777777784,
+          5.25836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4568.jpg",
+        "filename": "IMG_4568",
+        "altitude": 4.61612,
+        "direction": 273.715,
+        "rotation": 0,
+        "longitude": "-73.95942777777778",
+        "latitude": "40.57528055555556",
+        "timestamp": "2026-07-31T13:15:47"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95942777777778,
+          40.57528055555556,
+          4.61612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4569.jpg",
+        "filename": "IMG_4569",
+        "altitude": 4.99719,
+        "direction": 21.2738,
+        "rotation": 0,
+        "longitude": "-73.95951111111111",
+        "latitude": "40.57522222222222",
+        "timestamp": "2026-07-31T13:16:01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95951111111111,
+          40.57522222222222,
+          4.99719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4570.jpg",
+        "filename": "IMG_4570",
+        "altitude": 4.78281,
+        "direction": 1.71835,
+        "rotation": 0,
+        "longitude": "-73.95958611111111",
+        "latitude": "40.57519166666667",
+        "timestamp": "2026-07-31T13:16:22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95958611111111,
+          40.57519166666667,
+          4.78281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4571.jpg",
+        "filename": "IMG_4571",
+        "altitude": 5.77389,
+        "direction": 211.107,
+        "rotation": 0,
+        "longitude": "-73.95964722222223",
+        "latitude": "40.575188888888896",
+        "timestamp": "2026-07-31T13:16:27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95964722222223,
+          40.575188888888896,
+          5.77389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4572.jpg",
+        "filename": "IMG_4572",
+        "altitude": 4.65578,
+        "direction": 53.6156,
+        "rotation": 0,
+        "longitude": "-73.96003611111111",
+        "latitude": "40.57524444444445",
+        "timestamp": "2026-07-31T13:17:06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96003611111111,
+          40.57524444444445,
+          4.65578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4573.jpg",
+        "filename": "IMG_4573",
+        "altitude": 5.1279,
+        "direction": 323.56,
+        "rotation": 0,
+        "longitude": "-73.96003611111111",
+        "latitude": "40.57524444444445",
+        "timestamp": "2026-07-31T13:17:11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96003611111111,
+          40.57524444444445,
+          5.1279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4574.jpg",
+        "filename": "IMG_4574",
+        "altitude": 5.25605,
+        "direction": 225.437,
+        "rotation": 0,
+        "longitude": "-73.96005277777778",
+        "latitude": "40.57519166666667",
+        "timestamp": "2026-07-31T13:17:22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96005277777778,
+          40.57519166666667,
+          5.25605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4575.jpg",
+        "filename": "IMG_4575",
+        "altitude": 6.07291,
+        "direction": 266.738,
+        "rotation": 0,
+        "longitude": "-73.96003055555556",
+        "latitude": "40.57517222222223",
+        "timestamp": "2026-07-31T13:17:49"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96003055555556,
+          40.57517222222223,
+          6.07291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4576.jpg",
+        "filename": "IMG_4576",
+        "altitude": 7.43747,
+        "direction": 295.815,
+        "rotation": 0,
+        "longitude": "-73.96015833333334",
+        "latitude": "40.575163888888895",
+        "timestamp": "2026-07-31T13:18:03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96015833333334,
+          40.575163888888895,
+          7.43747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4577.jpg",
+        "filename": "IMG_4577",
+        "altitude": 4.94035,
+        "direction": 293.139,
+        "rotation": 0,
+        "longitude": "-73.96036666666667",
+        "latitude": "40.57521944444445",
+        "timestamp": "2026-07-31T13:18:29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96036666666667,
+          40.57521944444445,
+          4.94035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4578.jpg",
+        "filename": "IMG_4578",
+        "altitude": 4.72143,
+        "direction": 251.024,
+        "rotation": 0,
+        "longitude": "-73.96035833333333",
+        "latitude": "40.57523611111112",
+        "timestamp": "2026-07-31T13:18:32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96035833333333,
+          40.57523611111112,
+          4.72143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4579.jpg",
+        "filename": "IMG_4579",
+        "altitude": 4.74897,
+        "direction": 88.4463,
+        "rotation": 0,
+        "longitude": "-73.96040277777779",
+        "latitude": "40.5752",
+        "timestamp": "2026-07-31T13:18:40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96040277777779,
+          40.5752,
+          4.74897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4580.jpg",
+        "filename": "IMG_4580",
+        "altitude": 5.25866,
+        "direction": 302.491,
+        "rotation": 0,
+        "longitude": "-73.96056388888888",
+        "latitude": "40.575175",
+        "timestamp": "2026-07-31T13:18:58"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96056388888888,
+          40.575175,
+          5.25866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4581.jpg",
+        "filename": "IMG_4581",
+        "altitude": 4.22803,
+        "direction": 318.729,
+        "rotation": 0,
+        "longitude": "-73.9609138888889",
+        "latitude": "40.575163888888895",
+        "timestamp": "2026-07-31T13:19:20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9609138888889,
+          40.575163888888895,
+          4.22803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4582.jpg",
+        "filename": "IMG_4582",
+        "altitude": 4.64295,
+        "direction": 331.886,
+        "rotation": 0,
+        "longitude": "-73.96094444444445",
+        "latitude": "40.57515277777778",
+        "timestamp": "2026-07-31T13:19:31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96094444444445,
+          40.57515277777778,
+          4.64295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4583.jpg",
+        "filename": "IMG_4583",
+        "altitude": 4.10691,
+        "direction": 1.12234,
+        "rotation": 0,
+        "longitude": "-73.96102222222223",
+        "latitude": "40.57519444444445",
+        "timestamp": "2026-07-31T13:19:42"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96102222222223,
+          40.57519444444445,
+          4.10691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4584.jpg",
+        "filename": "IMG_4584",
+        "altitude": 3.94764,
+        "direction": 356.601,
+        "rotation": 0,
+        "longitude": "-73.9610888888889",
+        "latitude": "40.5752",
+        "timestamp": "2026-07-31T13:19:51"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9610888888889,
+          40.5752,
+          3.94764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4585.jpg",
+        "filename": "IMG_4585",
+        "altitude": 4.26013,
+        "direction": 272.642,
+        "rotation": 0,
+        "longitude": "-73.96112777777778",
+        "latitude": "40.575161111111115",
+        "timestamp": "2026-07-31T13:19:55"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96112777777778,
+          40.575161111111115,
+          4.26013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4586.jpg",
+        "filename": "IMG_4586",
+        "altitude": 4.66025,
+        "direction": 284.256,
+        "rotation": 0,
+        "longitude": "-73.96129722222223",
+        "latitude": "40.57511388888889",
+        "timestamp": "2026-07-31T13:20:10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96129722222223,
+          40.57511388888889,
+          4.66025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4587.jpg",
+        "filename": "IMG_4587",
+        "altitude": 4.62694,
+        "direction": 278.831,
+        "rotation": 0,
+        "longitude": "-73.96131944444444",
+        "latitude": "40.57512222222223",
+        "timestamp": "2026-07-31T13:20:14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96131944444444,
+          40.57512222222223,
+          4.62694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4588.jpg",
+        "filename": "IMG_4588",
+        "altitude": 5.32753,
+        "direction": 1.61465,
+        "rotation": 0,
+        "longitude": "-73.96128888888889",
+        "latitude": "40.57514166666667",
+        "timestamp": "2026-07-31T13:20:18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96128888888889,
+          40.57514166666667,
+          5.32753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4589.jpg",
+        "filename": "IMG_4589",
+        "altitude": 3.93582,
+        "direction": 269.51,
+        "rotation": 0,
+        "longitude": "-73.96166111111111",
+        "latitude": "40.57510833333334",
+        "timestamp": "2026-07-31T13:20:48"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96166111111111,
+          40.57510833333334,
+          3.93582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4590.jpg",
+        "filename": "IMG_4590",
+        "altitude": 6.79914,
+        "direction": 61.4959,
+        "rotation": 0,
+        "longitude": "-73.96191388888889",
+        "latitude": "40.57510833333334",
+        "timestamp": "2026-07-31T13:21:11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96191388888889,
+          40.57510833333334,
+          6.79914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4591.jpg",
+        "filename": "IMG_4591",
+        "altitude": 5.61744,
+        "direction": 7.92032,
+        "rotation": 0,
+        "longitude": "-73.96212777777778",
+        "latitude": "40.57509166666667",
+        "timestamp": "2026-07-31T13:21:28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96212777777778,
+          40.57509166666667,
+          5.61744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4592.jpg",
+        "filename": "IMG_4592",
+        "altitude": 6.00796,
+        "direction": 308.111,
+        "rotation": 0,
+        "longitude": "-73.96209722222223",
+        "latitude": "40.57506666666667",
+        "timestamp": "2026-07-31T13:21:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96209722222223,
+          40.57506666666667,
+          6.00796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4593.jpg",
+        "filename": "IMG_4593",
+        "altitude": 5.42125,
+        "direction": 270.261,
+        "rotation": 0,
+        "longitude": "-73.96224166666667",
+        "latitude": "40.57505555555556",
+        "timestamp": "2026-07-31T13:21:43"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96224166666667,
+          40.57505555555556,
+          5.42125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4594.jpg",
+        "filename": "IMG_4594",
+        "altitude": 6.25171,
+        "direction": 69.5327,
+        "rotation": 0,
+        "longitude": "-73.96260000000001",
+        "latitude": "40.57501944444445",
+        "timestamp": "2026-07-31T13:22:16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9626,
+          40.57501944444445,
+          6.25171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4595.jpg",
+        "filename": "IMG_4595",
+        "altitude": 6.55865,
+        "direction": 24.6804,
+        "rotation": 0,
+        "longitude": "-73.96257777777778",
+        "latitude": "40.575027777777784",
+        "timestamp": "2026-07-31T13:22:19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96257777777778,
+          40.575027777777784,
+          6.55865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4596.jpg",
+        "filename": "IMG_4596",
+        "altitude": 6.69337,
+        "direction": 328.953,
+        "rotation": 0,
+        "longitude": "-73.96260000000001",
+        "latitude": "40.57503888888889",
+        "timestamp": "2026-07-31T13:22:23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9626,
+          40.57503888888889,
+          6.69337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4597.jpg",
+        "filename": "IMG_4597",
+        "altitude": 5.97855,
+        "direction": 42.0725,
+        "rotation": 0,
+        "longitude": "-73.96263888888889",
+        "latitude": "40.575",
+        "timestamp": "2026-07-31T13:22:29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96263888888889,
+          40.575,
+          5.97855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4598.jpg",
+        "filename": "IMG_4598",
+        "altitude": 5.93725,
+        "direction": 237.881,
+        "rotation": 0,
+        "longitude": "-73.96281388888889",
+        "latitude": "40.574975",
+        "timestamp": "2026-07-31T13:22:53"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96281388888889,
+          40.574975,
+          5.93725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4599.jpg",
+        "filename": "IMG_4599",
+        "altitude": 5.71955,
+        "direction": 271.924,
+        "rotation": 0,
+        "longitude": "-73.96280555555556",
+        "latitude": "40.574975",
+        "timestamp": "2026-07-31T13:22:55"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96280555555556,
+          40.574975,
+          5.71955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4600.jpg",
+        "filename": "IMG_4600",
+        "altitude": 4.77751,
+        "direction": 308.979,
+        "rotation": 0,
+        "longitude": "-73.96289166666666",
+        "latitude": "40.57501666666667",
+        "timestamp": "2026-07-31T13:23:05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96289166666666,
+          40.57501666666667,
+          4.77751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4601.jpg",
+        "filename": "IMG_4601",
+        "altitude": 3.83199,
+        "direction": 356.209,
+        "rotation": 0,
+        "longitude": "-73.96292777777778",
+        "latitude": "40.57500833333334",
+        "timestamp": "2026-07-31T13:23:11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96292777777778,
+          40.57500833333334,
+          3.83199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4602.jpg",
+        "filename": "IMG_4602",
+        "altitude": 4.64196,
+        "direction": 19.6518,
+        "rotation": 0,
+        "longitude": "-73.962975",
+        "latitude": "40.57508333333334",
+        "timestamp": "2026-07-31T13:23:22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962975,
+          40.57508333333334,
+          4.64196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4603.jpg",
+        "filename": "IMG_4603",
+        "altitude": 4.39481,
+        "direction": 293.48,
+        "rotation": 0,
+        "longitude": "-73.96311111111112",
+        "latitude": "40.57512222222223",
+        "timestamp": "2026-07-31T13:23:35"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96311111111112,
+          40.57512222222223,
+          4.39481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4604.jpg",
+        "filename": "IMG_4604",
+        "altitude": 6.1108,
+        "direction": 258.18,
+        "rotation": 0,
+        "longitude": "-73.96348611111111",
+        "latitude": "40.57498888888889",
+        "timestamp": "2026-07-31T13:24:04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96348611111111,
+          40.57498888888889,
+          6.1108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4605.jpg",
+        "filename": "IMG_4605",
+        "altitude": 5.66771,
+        "direction": 264.987,
+        "rotation": 0,
+        "longitude": "-73.96402777777779",
+        "latitude": "40.574958333333335",
+        "timestamp": "2026-07-31T13:24:48"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96402777777779,
+          40.574958333333335,
+          5.66771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4606.jpg",
+        "filename": "IMG_4606",
+        "altitude": 4.90922,
+        "direction": 269.532,
+        "rotation": 0,
+        "longitude": "-73.964325",
+        "latitude": "40.574980555555555",
+        "timestamp": "2026-07-31T13:25:08"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964325,
+          40.574980555555555,
+          4.90922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4607.jpg",
+        "filename": "IMG_4607",
+        "altitude": 5.52651,
+        "direction": 280.301,
+        "rotation": 0,
+        "longitude": "-73.96464444444445",
+        "latitude": "40.57488888888889",
+        "timestamp": "2026-07-31T13:25:42"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96464444444445,
+          40.57488888888889,
+          5.52651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4608.jpg",
+        "filename": "IMG_4608",
+        "altitude": 5.17555,
+        "direction": 331.085,
+        "rotation": 0,
+        "longitude": "-73.96484444444445",
+        "latitude": "40.574894444444446",
+        "timestamp": "2026-07-31T13:26:03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96484444444445,
+          40.574894444444446,
+          5.17555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4609.jpg",
+        "filename": "IMG_4609",
+        "altitude": 4.73839,
+        "direction": 6.27328,
+        "rotation": 0,
+        "longitude": "-73.96485",
+        "latitude": "40.574913888888894",
+        "timestamp": "2026-07-31T13:26:13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96485,
+          40.574913888888894,
+          4.73839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4610.jpg",
+        "filename": "IMG_4610",
+        "altitude": 4.80491,
+        "direction": 15.2953,
+        "rotation": 0,
+        "longitude": "-73.96489722222222",
+        "latitude": "40.57492777777778",
+        "timestamp": "2026-07-31T13:26:18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96489722222222,
+          40.57492777777778,
+          4.80491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4611.jpg",
+        "filename": "IMG_4611",
+        "altitude": 4.69297,
+        "direction": 305.742,
+        "rotation": 0,
+        "longitude": "-73.96507222222222",
+        "latitude": "40.57494722222223",
+        "timestamp": "2026-07-31T13:26:37"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96507222222222,
+          40.57494722222223,
+          4.69297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4612.jpg",
+        "filename": "IMG_4612",
+        "altitude": 3.74918,
+        "direction": 359.965,
+        "rotation": 0,
+        "longitude": "-73.96513333333334",
+        "latitude": "40.574925",
+        "timestamp": "2026-07-31T13:26:45"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96513333333334,
+          40.574925,
+          3.74918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4613.jpg",
+        "filename": "IMG_4613",
+        "altitude": 3.83108,
+        "direction": 193.794,
+        "rotation": 0,
+        "longitude": "-73.96534722222222",
+        "latitude": "40.574925",
+        "timestamp": "2026-07-31T13:27:18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96534722222222,
+          40.574925,
+          3.83108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4614.jpg",
+        "filename": "IMG_4614",
+        "altitude": 4.12986,
+        "direction": 263.62,
+        "rotation": 0,
+        "longitude": "-73.96535555555556",
+        "latitude": "40.574925",
+        "timestamp": "2026-07-31T13:27:22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96535555555556,
+          40.574925,
+          4.12986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4615.jpg",
+        "filename": "IMG_4615",
+        "altitude": 3.80941,
+        "direction": 340.078,
+        "rotation": 0,
+        "longitude": "-73.9654",
+        "latitude": "40.574925",
+        "timestamp": "2026-07-31T13:27:27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9654,
+          40.574925,
+          3.80941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4616.jpg",
+        "filename": "IMG_4616",
+        "altitude": 4.00981,
+        "direction": 282.715,
+        "rotation": 0,
+        "longitude": "-73.96560000000001",
+        "latitude": "40.57487777777778",
+        "timestamp": "2026-07-31T13:27:44"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9656,
+          40.57487777777778,
+          4.00981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4617.jpg",
+        "filename": "IMG_4617",
+        "altitude": 4.12665,
+        "direction": 267.142,
+        "rotation": 0,
+        "longitude": "-73.9657888888889",
+        "latitude": "40.57485833333334",
+        "timestamp": "2026-07-31T13:28:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9657888888889,
+          40.57485833333334,
+          4.12665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4618.jpg",
+        "filename": "IMG_4618",
+        "altitude": 4.4879,
+        "direction": 297.391,
+        "rotation": 0,
+        "longitude": "-73.96623333333334",
+        "latitude": "40.57495",
+        "timestamp": "2026-07-31T13:28:42"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96623333333334,
+          40.57495,
+          4.4879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4619.jpg",
+        "filename": "IMG_4619",
+        "altitude": 3.16773,
+        "direction": 306.001,
+        "rotation": 0,
+        "longitude": "-73.96653611111111",
+        "latitude": "40.57490555555556",
+        "timestamp": "2026-07-31T13:29:01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96653611111111,
+          40.57490555555556,
+          3.16773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4620.jpg",
+        "filename": "IMG_4620",
+        "altitude": 4.72813,
+        "direction": 351.652,
+        "rotation": 0,
+        "longitude": "-73.96675",
+        "latitude": "40.57494444444445",
+        "timestamp": "2026-07-31T13:29:20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96675,
+          40.57494444444445,
+          4.72813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4621.jpg",
+        "filename": "IMG_4621",
+        "altitude": 3.88907,
+        "direction": 6.92014,
+        "rotation": 0,
+        "longitude": "-73.96688888888889",
+        "latitude": "40.575005555555556",
+        "timestamp": "2026-07-31T13:29:33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96688888888889,
+          40.575005555555556,
+          3.88907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4622.jpg",
+        "filename": "IMG_4622",
+        "altitude": 4.37995,
+        "direction": 272.878,
+        "rotation": 0,
+        "longitude": "-73.96710277777778",
+        "latitude": "40.57497777777778",
+        "timestamp": "2026-07-31T13:29:52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96710277777778,
+          40.57497777777778,
+          4.37995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4623.jpg",
+        "filename": "IMG_4623",
+        "altitude": 5.93401,
+        "direction": 297.075,
+        "rotation": 0,
+        "longitude": "-73.96731666666666",
+        "latitude": "40.57495",
+        "timestamp": "2026-07-31T13:30:10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96731666666666,
+          40.57495,
+          5.93401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4624.jpg",
+        "filename": "IMG_4624",
+        "altitude": 5.09439,
+        "direction": 303.39,
+        "rotation": 0,
+        "longitude": "-73.96747500000001",
+        "latitude": "40.574936111111114",
+        "timestamp": "2026-07-31T13:30:26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.967475,
+          40.574936111111114,
+          5.09439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4625.jpg",
+        "filename": "IMG_4625",
+        "altitude": 3.45554,
+        "direction": 352.993,
+        "rotation": 0,
+        "longitude": "-73.96760555555555",
+        "latitude": "40.57492777777778",
+        "timestamp": "2026-07-31T13:30:38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96760555555555,
+          40.57492777777778,
+          3.45554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4626.jpg",
+        "filename": "IMG_4626",
+        "altitude": 3.66308,
+        "direction": 7.04178,
+        "rotation": 0,
+        "longitude": "-73.96770555555555",
+        "latitude": "40.57490833333333",
+        "timestamp": "2026-07-31T13:30:46"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96770555555555,
+          40.57490833333333,
+          3.66308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4627.jpg",
+        "filename": "IMG_4627",
+        "altitude": 3.68278,
+        "direction": 87.6856,
+        "rotation": 0,
+        "longitude": "-73.967675",
+        "latitude": "40.57492777777778",
+        "timestamp": "2026-07-31T13:30:48"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.967675,
+          40.57492777777778,
+          3.68278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4628.jpg",
+        "filename": "IMG_4628",
+        "altitude": 3.68459,
+        "direction": 244.93,
+        "rotation": 0,
+        "longitude": "-73.96779722222223",
+        "latitude": "40.57491666666667",
+        "timestamp": "2026-07-31T13:30:54"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96779722222223,
+          40.57491666666667,
+          3.68459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4629.jpg",
+        "filename": "IMG_4629",
+        "altitude": 4.03519,
+        "direction": 269.686,
+        "rotation": 0,
+        "longitude": "-73.96811666666667",
+        "latitude": "40.57491944444445",
+        "timestamp": "2026-07-31T13:31:17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96811666666667,
+          40.57491944444445,
+          4.03519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4630.jpg",
+        "filename": "IMG_4630",
+        "altitude": 3.40195,
+        "direction": 288.101,
+        "rotation": 0,
+        "longitude": "-73.96809444444445",
+        "latitude": "40.57491666666667",
+        "timestamp": "2026-07-31T13:31:22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96809444444445,
+          40.57491666666667,
+          3.40195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4631.jpg",
+        "filename": "IMG_4631",
+        "altitude": 3.37281,
+        "direction": 50.7703,
+        "rotation": 0,
+        "longitude": "-73.96813333333334",
+        "latitude": "40.574872222222226",
+        "timestamp": "2026-07-31T13:31:32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96813333333334,
+          40.574872222222226,
+          3.37281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4632.jpg",
+        "filename": "IMG_4632",
+        "altitude": 4.35486,
+        "direction": 274.532,
+        "rotation": 0,
+        "longitude": "-73.96825277777778",
+        "latitude": "40.574875000000006",
+        "timestamp": "2026-07-31T13:31:42"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96825277777778,
+          40.574875,
+          4.35486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4633.jpg",
+        "filename": "IMG_4633",
+        "altitude": 5.26676,
+        "direction": 351.887,
+        "rotation": 0,
+        "longitude": "-73.96872777777779",
+        "latitude": "40.57471944444445",
+        "timestamp": "2026-07-31T13:32:21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96872777777779,
+          40.57471944444445,
+          5.26676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4634.jpg",
+        "filename": "IMG_4634",
+        "altitude": 4.44248,
+        "direction": 8.46713,
+        "rotation": 0,
+        "longitude": "-73.96880277777778",
+        "latitude": "40.574713888888894",
+        "timestamp": "2026-07-31T13:32:31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96880277777778,
+          40.574713888888894,
+          4.44248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4635.jpg",
+        "filename": "IMG_4635",
+        "altitude": 4.2537,
+        "direction": 22.9982,
+        "rotation": 0,
+        "longitude": "-73.969125",
+        "latitude": "40.574672222222226",
+        "timestamp": "2026-07-31T13:33:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969125,
+          40.574672222222226,
+          4.2537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4636.jpg",
+        "filename": "IMG_4636",
+        "altitude": 4.51329,
+        "direction": 249.736,
+        "rotation": 0,
+        "longitude": "-73.96927777777778",
+        "latitude": "40.57460833333334",
+        "timestamp": "2026-07-31T13:33:13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96927777777778,
+          40.57460833333334,
+          4.51329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4637.jpg",
+        "filename": "IMG_4637",
+        "altitude": 4.90297,
+        "direction": 30.0942,
+        "rotation": 0,
+        "longitude": "-73.969575",
+        "latitude": "40.57458888888889",
+        "timestamp": "2026-07-31T13:33:39"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969575,
+          40.57458888888889,
+          4.90297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4638.jpg",
+        "filename": "IMG_4638",
+        "altitude": 3.79473,
+        "direction": 324.871,
+        "rotation": 0,
+        "longitude": "-73.9695888888889",
+        "latitude": "40.57459722222222",
+        "timestamp": "2026-07-31T13:33:46"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9695888888889,
+          40.57459722222222,
+          3.79473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4639.jpg",
+        "filename": "IMG_4639",
+        "altitude": 5.90112,
+        "direction": 252.496,
+        "rotation": 0,
+        "longitude": "-73.969825",
+        "latitude": "40.57455",
+        "timestamp": "2026-07-31T13:34:05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969825,
+          40.57455,
+          5.90112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4640.jpg",
+        "filename": "IMG_4640",
+        "altitude": 6.3396,
+        "direction": 260.652,
+        "rotation": 0,
+        "longitude": "-73.97009166666666",
+        "latitude": "40.574447222222226",
+        "timestamp": "2026-07-31T13:34:27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97009166666666,
+          40.574447222222226,
+          6.3396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4641.jpg",
+        "filename": "IMG_4641",
+        "altitude": 4.6769,
+        "direction": 278.385,
+        "rotation": 0,
+        "longitude": "-73.97018333333334",
+        "latitude": "40.574447222222226",
+        "timestamp": "2026-07-31T13:34:33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97018333333334,
+          40.574447222222226,
+          4.6769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4642.jpg",
+        "filename": "IMG_4642",
+        "altitude": 5.68344,
+        "direction": 315.162,
+        "rotation": 0,
+        "longitude": "-73.97032222222222",
+        "latitude": "40.574422222222225",
+        "timestamp": "2026-07-31T13:34:47"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97032222222222,
+          40.574422222222225,
+          5.68344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4643.jpg",
+        "filename": "IMG_4643",
+        "altitude": 4.54754,
+        "direction": 279.807,
+        "rotation": 0,
+        "longitude": "-73.97042777777779",
+        "latitude": "40.57441388888889",
+        "timestamp": "2026-07-31T13:35:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97042777777779,
+          40.57441388888889,
+          4.54754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4644.jpg",
+        "filename": "IMG_4644",
+        "altitude": 5.28918,
+        "direction": 252.432,
+        "rotation": 0,
+        "longitude": "-73.97081111111112",
+        "latitude": "40.57434166666667",
+        "timestamp": "2026-07-31T13:35:29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97081111111112,
+          40.57434166666667,
+          5.28918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4645.jpg",
+        "filename": "IMG_4645",
+        "altitude": 5.10168,
+        "direction": 265.159,
+        "rotation": 0,
+        "longitude": "-73.97113055555556",
+        "latitude": "40.574283333333334",
+        "timestamp": "2026-07-31T13:35:55"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97113055555556,
+          40.574283333333334,
+          5.10168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4646.jpg",
+        "filename": "IMG_4646",
+        "altitude": 5.18018,
+        "direction": 319.347,
+        "rotation": 0,
+        "longitude": "-73.97132222222223",
+        "latitude": "40.574219444444445",
+        "timestamp": "2026-07-31T13:36:12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97132222222223,
+          40.574219444444445,
+          5.18018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4647.jpg",
+        "filename": "IMG_4647",
+        "altitude": 3.87063,
+        "direction": 61.715,
+        "rotation": 0,
+        "longitude": "-73.97146666666667",
+        "latitude": "40.574244444444446",
+        "timestamp": "2026-07-31T13:36:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97146666666667,
+          40.574244444444446,
+          3.87063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4648.jpg",
+        "filename": "IMG_4648",
+        "altitude": 3.89948,
+        "direction": 258.27,
+        "rotation": 0,
+        "longitude": "-73.97161944444444",
+        "latitude": "40.574177777777784",
+        "timestamp": "2026-07-31T13:36:44"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97161944444444,
+          40.574177777777784,
+          3.89948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4649.jpg",
+        "filename": "IMG_4649",
+        "altitude": 4.44545,
+        "direction": 187.737,
+        "rotation": 0,
+        "longitude": "-73.97173333333333",
+        "latitude": "40.57412777777778",
+        "timestamp": "2026-07-31T13:36:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97173333333333,
+          40.57412777777778,
+          4.44545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4650.jpg",
+        "filename": "IMG_4650",
+        "altitude": 4.80858,
+        "direction": 222.726,
+        "rotation": 0,
+        "longitude": "-73.97193888888889",
+        "latitude": "40.574108333333335",
+        "timestamp": "2026-07-31T13:37:14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97193888888889,
+          40.574108333333335,
+          4.80858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4651.jpg",
+        "filename": "IMG_4651",
+        "altitude": 4.81929,
+        "direction": 29.7763,
+        "rotation": 0,
+        "longitude": "-73.97199166666667",
+        "latitude": "40.574108333333335",
+        "timestamp": "2026-07-31T13:37:26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97199166666667,
+          40.574108333333335,
+          4.81929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4652.jpg",
+        "filename": "IMG_4652",
+        "altitude": 4.31735,
+        "direction": 52.0727,
+        "rotation": 0,
+        "longitude": "-73.97201666666668",
+        "latitude": "40.57410555555556",
+        "timestamp": "2026-07-31T13:37:32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97201666666668,
+          40.57410555555556,
+          4.31735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4653.jpg",
+        "filename": "IMG_4653",
+        "altitude": 4.38709,
+        "direction": 282.911,
+        "rotation": 0,
+        "longitude": "-73.97198611111111",
+        "latitude": "40.57413888888889",
+        "timestamp": "2026-07-31T13:37:40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97198611111111,
+          40.57413888888889,
+          4.38709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4654.jpg",
+        "filename": "IMG_4654",
+        "altitude": 5.08113,
+        "direction": 196.593,
+        "rotation": 0,
+        "longitude": "-73.97208333333333",
+        "latitude": "40.57411666666667",
+        "timestamp": "2026-07-31T13:37:50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97208333333333,
+          40.57411666666667,
+          5.08113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4655.jpg",
+        "filename": "IMG_4655",
+        "altitude": 3.73455,
+        "direction": 282.239,
+        "rotation": 0,
+        "longitude": "-73.97245833333334",
+        "latitude": "40.574111111111115",
+        "timestamp": "2026-07-31T13:38:27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97245833333334,
+          40.574111111111115,
+          3.73455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4656.jpg",
+        "filename": "IMG_4656",
+        "altitude": 3.59382,
+        "direction": 250.126,
+        "rotation": 0,
+        "longitude": "-73.97246666666666",
+        "latitude": "40.57410555555556",
+        "timestamp": "2026-07-31T13:38:31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97246666666666,
+          40.57410555555556,
+          3.59382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4657.jpg",
+        "filename": "IMG_4657",
+        "altitude": 5.51301,
+        "direction": 22.3188,
+        "rotation": 0,
+        "longitude": "-73.97295277777778",
+        "latitude": "40.57395833333334",
+        "timestamp": "2026-07-31T13:39:11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97295277777778,
+          40.57395833333334,
+          5.51301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4658.jpg",
+        "filename": "IMG_4658",
+        "altitude": 4.56484,
+        "direction": 290.486,
+        "rotation": 0,
+        "longitude": "-73.97296111111112",
+        "latitude": "40.57395555555556",
+        "timestamp": "2026-07-31T13:39:15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97296111111112,
+          40.57395555555556,
+          4.56484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4659.jpg",
+        "filename": "IMG_4659",
+        "altitude": 5.13563,
+        "direction": 262.78,
+        "rotation": 0,
+        "longitude": "-73.97304444444444",
+        "latitude": "40.57395833333334",
+        "timestamp": "2026-07-31T13:39:25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97304444444444,
+          40.57395833333334,
+          5.13563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4660.jpg",
+        "filename": "IMG_4660",
+        "altitude": 5.73165,
+        "direction": 266.212,
+        "rotation": 0,
+        "longitude": "-73.97357222222223",
+        "latitude": "40.57387222222223",
+        "timestamp": "2026-07-31T13:40:14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97357222222223,
+          40.57387222222223,
+          5.73165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4661.jpg",
+        "filename": "IMG_4661",
+        "altitude": 4.7781,
+        "direction": 331.852,
+        "rotation": 0,
+        "longitude": "-73.97367222222222",
+        "latitude": "40.57388055555556",
+        "timestamp": "2026-07-31T13:40:26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97367222222222,
+          40.57388055555556,
+          4.7781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4662.jpg",
+        "filename": "IMG_4662",
+        "altitude": 4.93597,
+        "direction": 296.246,
+        "rotation": 0,
+        "longitude": "-73.97370277777777",
+        "latitude": "40.57387222222223",
+        "timestamp": "2026-07-31T13:40:31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97370277777777,
+          40.57387222222223,
+          4.93597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4663.jpg",
+        "filename": "IMG_4663",
+        "altitude": 7.0326,
+        "direction": 203.22,
+        "rotation": 0,
+        "longitude": "-73.97388333333333",
+        "latitude": "40.57376388888889",
+        "timestamp": "2026-07-31T13:40:50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97388333333333,
+          40.57376388888889,
+          7.0326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4664.jpg",
+        "filename": "IMG_4664",
+        "altitude": 6.32207,
+        "direction": 250.491,
+        "rotation": 0,
+        "longitude": "-73.97386111111112",
+        "latitude": "40.57373333333334",
+        "timestamp": "2026-07-31T13:40:54"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97386111111112,
+          40.57373333333334,
+          6.32207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4665.jpg",
+        "filename": "IMG_4665",
+        "altitude": 5.93032,
+        "direction": 103.894,
+        "rotation": 0,
+        "longitude": "-73.97384722222222",
+        "latitude": "40.57374166666667",
+        "timestamp": "2026-07-31T13:40:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97384722222222,
+          40.57374166666667,
+          5.93032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4666.jpg",
+        "filename": "IMG_4666",
+        "altitude": 5.1881,
+        "direction": 1.10327,
+        "rotation": 0,
+        "longitude": "-73.97385277777778",
+        "latitude": "40.57373333333334",
+        "timestamp": "2026-07-31T13:40:59"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97385277777778,
+          40.57373333333334,
+          5.1881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4667.jpg",
+        "filename": "IMG_4667",
+        "altitude": 5.39939,
+        "direction": 67.6801,
+        "rotation": 0,
+        "longitude": "-73.97383888888889",
+        "latitude": "40.573750000000004",
+        "timestamp": "2026-07-31T13:41:03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97383888888889,
+          40.57375,
+          5.39939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4668.jpg",
+        "filename": "IMG_4668",
+        "altitude": 5.92456,
+        "direction": 288.633,
+        "rotation": 0,
+        "longitude": "-73.97396111111111",
+        "latitude": "40.57376388888889",
+        "timestamp": "2026-07-31T13:41:19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97396111111111,
+          40.57376388888889,
+          5.92456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4669.jpg",
+        "filename": "IMG_4669",
+        "altitude": 5.77854,
+        "direction": 274.601,
+        "rotation": 0,
+        "longitude": "-73.97414444444445",
+        "latitude": "40.57376388888889",
+        "timestamp": "2026-07-31T13:41:36"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97414444444445,
+          40.57376388888889,
+          5.77854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4670.jpg",
+        "filename": "IMG_4670",
+        "altitude": 5.65523,
+        "direction": 281.163,
+        "rotation": 0,
+        "longitude": "-73.97460277777778",
+        "latitude": "40.5737",
+        "timestamp": "2026-07-31T13:42:12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97460277777778,
+          40.5737,
+          5.65523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4671.jpg",
+        "filename": "IMG_4671",
+        "altitude": 5.22236,
+        "direction": 298.377,
+        "rotation": 0,
+        "longitude": "-73.97499722222223",
+        "latitude": "40.573638888888894",
+        "timestamp": "2026-07-31T13:42:45"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97499722222223,
+          40.573638888888894,
+          5.22236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4672.jpg",
+        "filename": "IMG_4672",
+        "altitude": 5.23812,
+        "direction": 271.541,
+        "rotation": 0,
+        "longitude": "-73.97499722222223",
+        "latitude": "40.57364722222223",
+        "timestamp": "2026-07-31T13:42:47"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97499722222223,
+          40.57364722222223,
+          5.23812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4673.jpg",
+        "filename": "IMG_4673",
+        "altitude": 6.05766,
+        "direction": 276.176,
+        "rotation": 0,
+        "longitude": "-73.97553333333333",
+        "latitude": "40.57358611111111",
+        "timestamp": "2026-07-31T13:43:31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97553333333333,
+          40.57358611111111,
+          6.05766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4674.jpg",
+        "filename": "IMG_4674",
+        "altitude": 5.73083,
+        "direction": 234.432,
+        "rotation": 0,
+        "longitude": "-73.97567777777778",
+        "latitude": "40.57356666666667",
+        "timestamp": "2026-07-31T13:43:43"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97567777777778,
+          40.57356666666667,
+          5.73083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4675.jpg",
+        "filename": "IMG_4675",
+        "altitude": 5.2822,
+        "direction": 298.054,
+        "rotation": 0,
+        "longitude": "-73.9758",
+        "latitude": "40.57358055555556",
+        "timestamp": "2026-07-31T13:43:59"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9758,
+          40.57358055555556,
+          5.2822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4676.jpg",
+        "filename": "IMG_4676",
+        "altitude": 5.41495,
+        "direction": 297.067,
+        "rotation": 0,
+        "longitude": "-73.97600555555556",
+        "latitude": "40.573569444444445",
+        "timestamp": "2026-07-31T13:44:16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97600555555556,
+          40.573569444444445,
+          5.41495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4677.jpg",
+        "filename": "IMG_4677",
+        "altitude": 4.86954,
+        "direction": 72.39,
+        "rotation": 0,
+        "longitude": "-73.97605833333334",
+        "latitude": "40.573575000000005",
+        "timestamp": "2026-07-31T13:44:24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97605833333334,
+          40.573575,
+          4.86954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4678.jpg",
+        "filename": "IMG_4678",
+        "altitude": 4.84269,
+        "direction": 83.715,
+        "rotation": 0,
+        "longitude": "-73.97605833333334",
+        "latitude": "40.57357777777778",
+        "timestamp": "2026-07-31T13:44:25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97605833333334,
+          40.57357777777778,
+          4.84269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4679.jpg",
+        "filename": "IMG_4679",
+        "altitude": 4.867,
+        "direction": 261.04,
+        "rotation": 0,
+        "longitude": "-73.9760888888889",
+        "latitude": "40.573575000000005",
+        "timestamp": "2026-07-31T13:44:29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9760888888889,
+          40.573575,
+          4.867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4680.jpg",
+        "filename": "IMG_4680",
+        "altitude": 6.30209,
+        "direction": 1.15714,
+        "rotation": 0,
+        "longitude": "-73.97631944444444",
+        "latitude": "40.573550000000004",
+        "timestamp": "2026-07-31T13:44:54"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97631944444444,
+          40.57355,
+          6.30209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4681.jpg",
+        "filename": "IMG_4681",
+        "altitude": 5.14786,
+        "direction": 72.2007,
+        "rotation": 0,
+        "longitude": "-73.97635",
+        "latitude": "40.573661111111115",
+        "timestamp": "2026-07-31T13:45:10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97635,
+          40.573661111111115,
+          5.14786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4682.jpg",
+        "filename": "IMG_4682",
+        "altitude": 4.34739,
+        "direction": 55.0977,
+        "rotation": 0,
+        "longitude": "-73.97640277777778",
+        "latitude": "40.57371388888889",
+        "timestamp": "2026-07-31T13:45:18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97640277777778,
+          40.57371388888889,
+          4.34739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4683.jpg",
+        "filename": "IMG_4683",
+        "altitude": 5.91057,
+        "direction": 246.623,
+        "rotation": 0,
+        "longitude": "-73.97644722222222",
+        "latitude": "40.573625",
+        "timestamp": "2026-07-31T13:45:31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97644722222222,
+          40.573625,
+          5.91057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4684.jpg",
+        "filename": "IMG_4684",
+        "altitude": 5.12005,
+        "direction": 290.406,
+        "rotation": 0,
+        "longitude": "-73.97681388888888",
+        "latitude": "40.573569444444445",
+        "timestamp": "2026-07-31T13:45:58"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97681388888888,
+          40.573569444444445,
+          5.12005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4685.jpg",
+        "filename": "IMG_4685",
+        "altitude": 4.94987,
+        "direction": 267.006,
+        "rotation": 0,
+        "longitude": "-73.97681388888888",
+        "latitude": "40.57356666666667",
+        "timestamp": "2026-07-31T13:46:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97681388888888,
+          40.57356666666667,
+          4.94987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4686.jpg",
+        "filename": "IMG_4686",
+        "altitude": 3.72278,
+        "direction": 300.283,
+        "rotation": 0,
+        "longitude": "-73.9769888888889",
+        "latitude": "40.573547222222224",
+        "timestamp": "2026-07-31T13:46:18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9769888888889,
+          40.573547222222224,
+          3.72278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4687.jpg",
+        "filename": "IMG_4687",
+        "altitude": 3.77795,
+        "direction": 358.915,
+        "rotation": 0,
+        "longitude": "-73.97717222222222",
+        "latitude": "40.573527777777784",
+        "timestamp": "2026-07-31T13:46:33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97717222222222,
+          40.573527777777784,
+          3.77795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4688.jpg",
+        "filename": "IMG_4688",
+        "altitude": 4.06635,
+        "direction": 49.6347,
+        "rotation": 0,
+        "longitude": "-73.97717222222222",
+        "latitude": "40.573525000000004",
+        "timestamp": "2026-07-31T13:46:35"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97717222222222,
+          40.573525,
+          4.06635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4689.jpg",
+        "filename": "IMG_4689",
+        "altitude": 4.04294,
+        "direction": 135.451,
+        "rotation": 0,
+        "longitude": "-73.97720277777778",
+        "latitude": "40.573525000000004",
+        "timestamp": "2026-07-31T13:46:47"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97720277777778,
+          40.573525,
+          4.04294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4690.jpg",
+        "filename": "IMG_4690",
+        "altitude": 4.31694,
+        "direction": 20.3163,
+        "rotation": 0,
+        "longitude": "-73.97725555555556",
+        "latitude": "40.573550000000004",
+        "timestamp": "2026-07-31T13:46:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97725555555556,
+          40.57355,
+          4.31694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4691.jpg",
+        "filename": "IMG_4691",
+        "altitude": 4.53824,
+        "direction": 249.873,
+        "rotation": 0,
+        "longitude": "-73.97731666666667",
+        "latitude": "40.573527777777784",
+        "timestamp": "2026-07-31T13:47:03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97731666666667,
+          40.573527777777784,
+          4.53824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4692.jpg",
+        "filename": "IMG_4692",
+        "altitude": 5.97775,
+        "direction": 258.44,
+        "rotation": 0,
+        "longitude": "-73.97755555555555",
+        "latitude": "40.573508333333336",
+        "timestamp": "2026-07-31T13:47:24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97755555555555,
+          40.573508333333336,
+          5.97775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4693.jpg",
+        "filename": "IMG_4693",
+        "altitude": 6.18997,
+        "direction": 298.604,
+        "rotation": 0,
+        "longitude": "-73.97788888888888",
+        "latitude": "40.573425",
+        "timestamp": "2026-07-31T13:47:51"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97788888888888,
+          40.573425,
+          6.18997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4694.jpg",
+        "filename": "IMG_4694",
+        "altitude": 5.85808,
+        "direction": 4.3746,
+        "rotation": 0,
+        "longitude": "-73.97800555555555",
+        "latitude": "40.573394444444446",
+        "timestamp": "2026-07-31T13:48:03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97800555555555,
+          40.573394444444446,
+          5.85808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4695.jpg",
+        "filename": "IMG_4695",
+        "altitude": 6.2028,
+        "direction": 1.99118,
+        "rotation": 0,
+        "longitude": "-73.97811944444445",
+        "latitude": "40.57340555555556",
+        "timestamp": "2026-07-31T13:48:16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97811944444445,
+          40.57340555555556,
+          6.2028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4696.jpg",
+        "filename": "IMG_4696",
+        "altitude": 5.90131,
+        "direction": 302.149,
+        "rotation": 0,
+        "longitude": "-73.97815833333334",
+        "latitude": "40.573397222222226",
+        "timestamp": "2026-07-31T13:48:21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97815833333334,
+          40.573397222222226,
+          5.90131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4697.jpg",
+        "filename": "IMG_4697",
+        "altitude": 6.12725,
+        "direction": 339.316,
+        "rotation": 0,
+        "longitude": "-73.97823333333334",
+        "latitude": "40.57330833333334",
+        "timestamp": "2026-07-31T13:48:47"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97823333333334,
+          40.57330833333334,
+          6.12725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4698.jpg",
+        "filename": "IMG_4698",
+        "altitude": 5.79746,
+        "direction": 343.62,
+        "rotation": 0,
+        "longitude": "-73.97830833333333",
+        "latitude": "40.57330833333334",
+        "timestamp": "2026-07-31T13:48:58"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97830833333333,
+          40.57330833333334,
+          5.79746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4699.jpg",
+        "filename": "IMG_4699",
+        "altitude": 5.77523,
+        "direction": 108.492,
+        "rotation": 0,
+        "longitude": "-73.978325",
+        "latitude": "40.57324166666667",
+        "timestamp": "2026-07-31T13:49:07"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.978325,
+          40.57324166666667,
+          5.77523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4700.jpg",
+        "filename": "IMG_4700",
+        "altitude": 5.54356,
+        "direction": 254.524,
+        "rotation": 0,
+        "longitude": "-73.978425",
+        "latitude": "40.57322222222223",
+        "timestamp": "2026-07-31T13:49:17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.978425,
+          40.57322222222223,
+          5.54356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4701.jpg",
+        "filename": "IMG_4701",
+        "altitude": 6.06573,
+        "direction": 286.633,
+        "rotation": 0,
+        "longitude": "-73.97840833333333",
+        "latitude": "40.57330277777778",
+        "timestamp": "2026-07-31T13:49:29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97840833333333,
+          40.57330277777778,
+          6.06573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4702.jpg",
+        "filename": "IMG_4702",
+        "altitude": 6.44957,
+        "direction": 349.812,
+        "rotation": 0,
+        "longitude": "-73.9786",
+        "latitude": "40.57331388888889",
+        "timestamp": "2026-07-31T13:49:47"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9786,
+          40.57331388888889,
+          6.44957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4703.jpg",
+        "filename": "IMG_4703",
+        "altitude": 6.11263,
+        "direction": 6.07349,
+        "rotation": 0,
+        "longitude": "-73.9786388888889",
+        "latitude": "40.57344722222223",
+        "timestamp": "2026-07-31T13:50:05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9786388888889,
+          40.57344722222223,
+          6.11263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4704.jpg",
+        "filename": "IMG_4704",
+        "altitude": 5.63534,
+        "direction": 9.34311,
+        "rotation": 0,
+        "longitude": "-73.97859166666667",
+        "latitude": "40.57345555555556",
+        "timestamp": "2026-07-31T13:50:09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97859166666667,
+          40.57345555555556,
+          5.63534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4705.jpg",
+        "filename": "IMG_4705",
+        "altitude": 6.27713,
+        "direction": 302.317,
+        "rotation": 0,
+        "longitude": "-73.97873055555556",
+        "latitude": "40.57333888888889",
+        "timestamp": "2026-07-31T13:50:29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97873055555556,
+          40.57333888888889,
+          6.27713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4706.jpg",
+        "filename": "IMG_4706",
+        "altitude": 6.93998,
+        "direction": 289.383,
+        "rotation": 0,
+        "longitude": "-73.97883611111111",
+        "latitude": "40.57333055555556",
+        "timestamp": "2026-07-31T13:50:41"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97883611111111,
+          40.57333055555556,
+          6.93998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4707.jpg",
+        "filename": "IMG_4707",
+        "altitude": 6.66383,
+        "direction": 269.395,
+        "rotation": 0,
+        "longitude": "-73.97885000000001",
+        "latitude": "40.573322222222224",
+        "timestamp": "2026-07-31T13:50:42"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97885,
+          40.573322222222224,
+          6.66383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4708.jpg",
+        "filename": "IMG_4708",
+        "altitude": 5.24764,
+        "direction": 266.118,
+        "rotation": 0,
+        "longitude": "-73.97916388888889",
+        "latitude": "40.573263888888896",
+        "timestamp": "2026-07-31T13:51:07"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97916388888889,
+          40.573263888888896,
+          5.24764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4709.jpg",
+        "filename": "IMG_4709",
+        "altitude": 5.86947,
+        "direction": 357.133,
+        "rotation": 0,
+        "longitude": "-73.97927222222222",
+        "latitude": "40.57324166666667",
+        "timestamp": "2026-07-31T13:51:19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97927222222222,
+          40.57324166666667,
+          5.86947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4710.jpg",
+        "filename": "IMG_4710",
+        "altitude": 5.99711,
+        "direction": 179.989,
+        "rotation": 0,
+        "longitude": "-73.9794",
+        "latitude": "40.573233333333334",
+        "timestamp": "2026-07-31T13:51:32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9794,
+          40.573233333333334,
+          5.99711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4711.jpg",
+        "filename": "IMG_4711",
+        "altitude": 5.06045,
+        "direction": 357.923,
+        "rotation": 0,
+        "longitude": "-73.97956944444445",
+        "latitude": "40.57327222222222",
+        "timestamp": "2026-07-31T13:51:54"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97956944444445,
+          40.57327222222222,
+          5.06045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4712.jpg",
+        "filename": "IMG_4712",
+        "altitude": 4.94885,
+        "direction": 350.665,
+        "rotation": 0,
+        "longitude": "-73.97963055555556",
+        "latitude": "40.57327222222222",
+        "timestamp": "2026-07-31T13:52:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97963055555556,
+          40.57327222222222,
+          4.94885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4713.jpg",
+        "filename": "IMG_4713",
+        "altitude": 4.276,
+        "direction": 14.956,
+        "rotation": 0,
+        "longitude": "-73.97979722222222",
+        "latitude": "40.57318888888889",
+        "timestamp": "2026-07-31T13:52:20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97979722222222,
+          40.57318888888889,
+          4.276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4714.jpg",
+        "filename": "IMG_4714",
+        "altitude": 4.01209,
+        "direction": 44.1836,
+        "rotation": 0,
+        "longitude": "-73.97978333333333",
+        "latitude": "40.57331388888889",
+        "timestamp": "2026-07-31T13:52:32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97978333333333,
+          40.57331388888889,
+          4.01209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4715.jpg",
+        "filename": "IMG_4715",
+        "altitude": 4.06007,
+        "direction": 89.5816,
+        "rotation": 0,
+        "longitude": "-73.97979722222222",
+        "latitude": "40.57331944444445",
+        "timestamp": "2026-07-31T13:52:35"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97979722222222,
+          40.57331944444445,
+          4.06007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4716.jpg",
+        "filename": "IMG_4716",
+        "altitude": 4.76181,
+        "direction": 284.451,
+        "rotation": 0,
+        "longitude": "-73.97985833333334",
+        "latitude": "40.57321666666667",
+        "timestamp": "2026-07-31T13:52:52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97985833333334,
+          40.57321666666667,
+          4.76181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4717.jpg",
+        "filename": "IMG_4717",
+        "altitude": 4.8295,
+        "direction": 14.8922,
+        "rotation": 0,
+        "longitude": "-73.97990555555556",
+        "latitude": "40.57311944444445",
+        "timestamp": "2026-07-31T13:53:05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97990555555556,
+          40.57311944444445,
+          4.8295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4718.jpg",
+        "filename": "IMG_4718",
+        "altitude": 5.32118,
+        "direction": 338.636,
+        "rotation": 0,
+        "longitude": "-73.98006388888889",
+        "latitude": "40.57308333333334",
+        "timestamp": "2026-07-31T13:53:20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98006388888889,
+          40.57308333333334,
+          5.32118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4719.jpg",
+        "filename": "IMG_4719",
+        "altitude": 5.78241,
+        "direction": 243.184,
+        "rotation": 0,
+        "longitude": "-73.98017777777778",
+        "latitude": "40.57308611111112",
+        "timestamp": "2026-07-31T13:53:34"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98017777777778,
+          40.57308611111112,
+          5.78241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4720.jpg",
+        "filename": "IMG_4720",
+        "altitude": 3.28376,
+        "direction": 355.479,
+        "rotation": 0,
+        "longitude": "-73.98042222222223",
+        "latitude": "40.57311111111112",
+        "timestamp": "2026-07-31T13:53:56"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98042222222223,
+          40.57311111111112,
+          3.28376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4721.jpg",
+        "filename": "IMG_4721",
+        "altitude": 5.18262,
+        "direction": 334.864,
+        "rotation": 0,
+        "longitude": "-73.98065277777778",
+        "latitude": "40.573058333333336",
+        "timestamp": "2026-07-31T13:54:16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98065277777778,
+          40.573058333333336,
+          5.18262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4722.jpg",
+        "filename": "IMG_4722",
+        "altitude": 5.15247,
+        "direction": 273.939,
+        "rotation": 0,
+        "longitude": "-73.98065833333334",
+        "latitude": "40.57306388888889",
+        "timestamp": "2026-07-31T13:54:18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98065833333334,
+          40.57306388888889,
+          5.15247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4723.jpg",
+        "filename": "IMG_4723",
+        "altitude": 5.50957,
+        "direction": 4.32382,
+        "rotation": 0,
+        "longitude": "-73.98080555555556",
+        "latitude": "40.57313055555556",
+        "timestamp": "2026-07-31T13:54:33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98080555555556,
+          40.57313055555556,
+          5.50957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4724.jpg",
+        "filename": "IMG_4724",
+        "altitude": 4.81872,
+        "direction": 312.717,
+        "rotation": 0,
+        "longitude": "-73.98079722222222",
+        "latitude": "40.57315833333334",
+        "timestamp": "2026-07-31T13:54:38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98079722222222,
+          40.57315833333334,
+          4.81872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4725.jpg",
+        "filename": "IMG_4725",
+        "altitude": 5.17696,
+        "direction": 276.833,
+        "rotation": 0,
+        "longitude": "-73.98086666666667",
+        "latitude": "40.57314166666667",
+        "timestamp": "2026-07-31T13:54:46"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98086666666667,
+          40.57314166666667,
+          5.17696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4726.jpg",
+        "filename": "IMG_4726",
+        "altitude": 5.52442,
+        "direction": 275.835,
+        "rotation": 0,
+        "longitude": "-73.98117777777777",
+        "latitude": "40.573038888888895",
+        "timestamp": "2026-07-31T13:55:14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98117777777777,
+          40.573038888888895,
+          5.52442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4727.jpg",
+        "filename": "IMG_4727",
+        "altitude": 5.03619,
+        "direction": 338.409,
+        "rotation": 0,
+        "longitude": "-73.98136111111111",
+        "latitude": "40.57299444444445",
+        "timestamp": "2026-07-31T13:55:31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98136111111111,
+          40.57299444444445,
+          5.03619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4728.jpg",
+        "filename": "IMG_4728",
+        "altitude": 4.499,
+        "direction": 356.312,
+        "rotation": 0,
+        "longitude": "-73.98172777777778",
+        "latitude": "40.573013888888894",
+        "timestamp": "2026-07-31T13:56:02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98172777777778,
+          40.573013888888894,
+          4.499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4729.jpg",
+        "filename": "IMG_4729",
+        "altitude": 4.23148,
+        "direction": 4.46912,
+        "rotation": 0,
+        "longitude": "-73.98199444444445",
+        "latitude": "40.57299166666667",
+        "timestamp": "2026-07-31T13:56:26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98199444444445,
+          40.57299166666667,
+          4.23148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4730.jpg",
+        "filename": "IMG_4730",
+        "altitude": 4.54348,
+        "direction": 282.22,
+        "rotation": 0,
+        "longitude": "-73.98199444444445",
+        "latitude": "40.57298333333333",
+        "timestamp": "2026-07-31T13:56:29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98199444444445,
+          40.57298333333333,
+          4.54348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4731.jpg",
+        "filename": "IMG_4731",
+        "altitude": 4.41283,
+        "direction": 256.097,
+        "rotation": 0,
+        "longitude": "-73.98209444444444",
+        "latitude": "40.572972222222226",
+        "timestamp": "2026-07-31T13:56:36"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98209444444444,
+          40.572972222222226,
+          4.41283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4732.jpg",
+        "filename": "IMG_4732",
+        "altitude": 4.23612,
+        "direction": 2.94052,
+        "rotation": 0,
+        "longitude": "-73.9823138888889",
+        "latitude": "40.573013888888894",
+        "timestamp": "2026-07-31T13:57:06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9823138888889,
+          40.573013888888894,
+          4.23612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4733.jpg",
+        "filename": "IMG_4733",
+        "altitude": 4.6562,
+        "direction": 321.807,
+        "rotation": 0,
+        "longitude": "-73.98232222222222",
+        "latitude": "40.57299444444445",
+        "timestamp": "2026-07-31T13:57:09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98232222222222,
+          40.57299444444445,
+          4.6562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4734.jpg",
+        "filename": "IMG_4734",
+        "altitude": 4.93736,
+        "direction": 86.8991,
+        "rotation": 0,
+        "longitude": "-73.98232222222222",
+        "latitude": "40.57300555555556",
+        "timestamp": "2026-07-31T13:57:45"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98232222222222,
+          40.57300555555556,
+          4.93736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4735.jpg",
+        "filename": "IMG_4735",
+        "altitude": 4.74799,
+        "direction": 4.16147,
+        "rotation": 0,
+        "longitude": "-73.98236944444444",
+        "latitude": "40.57300277777778",
+        "timestamp": "2026-07-31T13:57:55"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98236944444444,
+          40.57300277777778,
+          4.74799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4736.jpg",
+        "filename": "IMG_4736",
+        "altitude": 4.63338,
+        "direction": 3.28088,
+        "rotation": 0,
+        "longitude": "-73.98236944444444",
+        "latitude": "40.57300277777778",
+        "timestamp": "2026-07-31T13:57:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98236944444444,
+          40.57300277777778,
+          4.63338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4737.jpg",
+        "filename": "IMG_4737",
+        "altitude": 5.3527,
+        "direction": 349.043,
+        "rotation": 0,
+        "longitude": "-73.98248333333333",
+        "latitude": "40.57291388888889",
+        "timestamp": "2026-07-31T13:58:24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98248333333333,
+          40.57291388888889,
+          5.3527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4738.jpg",
+        "filename": "IMG_4738",
+        "altitude": 4.94274,
+        "direction": 268.048,
+        "rotation": 0,
+        "longitude": "-73.98249722222222",
+        "latitude": "40.57289444444445",
+        "timestamp": "2026-07-31T13:58:27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98249722222222,
+          40.57289444444445,
+          4.94274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4739.jpg",
+        "filename": "IMG_4739",
+        "altitude": 5.12485,
+        "direction": 226.293,
+        "rotation": 0,
+        "longitude": "-73.98252222222223",
+        "latitude": "40.57289444444445",
+        "timestamp": "2026-07-31T13:58:32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98252222222223,
+          40.57289444444445,
+          5.12485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4740.jpg",
+        "filename": "IMG_4740",
+        "altitude": 5.56043,
+        "direction": 37.3739,
+        "rotation": 0,
+        "longitude": "-73.98275",
+        "latitude": "40.57296111111111",
+        "timestamp": "2026-07-31T13:58:59"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98275,
+          40.57296111111111,
+          5.56043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4741.jpg",
+        "filename": "IMG_4741",
+        "altitude": 5.40403,
+        "direction": 352.087,
+        "rotation": 0,
+        "longitude": "-73.98288611111111",
+        "latitude": "40.57289444444445",
+        "timestamp": "2026-07-31T13:59:23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98288611111111,
+          40.57289444444445,
+          5.40403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4742.jpg",
+        "filename": "IMG_4742",
+        "altitude": 4.50485,
+        "direction": 38.2287,
+        "rotation": 0,
+        "longitude": "-73.98297222222223",
+        "latitude": "40.57289444444445",
+        "timestamp": "2026-07-31T13:59:34"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98297222222223,
+          40.57289444444445,
+          4.50485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4743.jpg",
+        "filename": "IMG_4743",
+        "altitude": 4.31899,
+        "direction": 342.517,
+        "rotation": 0,
+        "longitude": "-73.98297222222223",
+        "latitude": "40.57289444444445",
+        "timestamp": "2026-07-31T13:59:37"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98297222222223,
+          40.57289444444445,
+          4.31899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4744.jpg",
+        "filename": "IMG_4744",
+        "altitude": 5.23484,
+        "direction": 319.245,
+        "rotation": 0,
+        "longitude": "-73.98303333333334",
+        "latitude": "40.57286944444445",
+        "timestamp": "2026-07-31T13:59:45"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98303333333334,
+          40.57286944444445,
+          5.23484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4745.jpg",
+        "filename": "IMG_4745",
+        "altitude": 4.7176,
+        "direction": 296.062,
+        "rotation": 0,
+        "longitude": "-73.9832",
+        "latitude": "40.57286944444445",
+        "timestamp": "2026-07-31T14:00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9832,
+          40.57286944444445,
+          4.7176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4746.jpg",
+        "filename": "IMG_4746",
+        "altitude": 4.47201,
+        "direction": 262.774,
+        "rotation": 0,
+        "longitude": "-73.98323055555555",
+        "latitude": "40.57288611111112",
+        "timestamp": "2026-07-31T14:00:04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98323055555555,
+          40.57288611111112,
+          4.47201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4747.jpg",
+        "filename": "IMG_4747",
+        "altitude": 4.70406,
+        "direction": 306.837,
+        "rotation": 0,
+        "longitude": "-73.98364166666667",
+        "latitude": "40.57279722222223",
+        "timestamp": "2026-07-31T14:00:48"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98364166666667,
+          40.57279722222223,
+          4.70406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4748.jpg",
+        "filename": "IMG_4748",
+        "altitude": 4.26766,
+        "direction": 261.552,
+        "rotation": 0,
+        "longitude": "-73.98367222222222",
+        "latitude": "40.57275277777778",
+        "timestamp": "2026-07-31T14:00:51"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98367222222222,
+          40.57275277777778,
+          4.26766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4749.jpg",
+        "filename": "IMG_4749",
+        "altitude": 4.1075,
+        "direction": 81.562,
+        "rotation": 0,
+        "longitude": "-73.98365833333334",
+        "latitude": "40.57274166666667",
+        "timestamp": "2026-07-31T14:00:56"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98365833333334,
+          40.57274166666667,
+          4.1075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4750.jpg",
+        "filename": "IMG_4750",
+        "altitude": 4.62045,
+        "direction": 53.8859,
+        "rotation": 0,
+        "longitude": "-73.98365833333334",
+        "latitude": "40.57277222222223",
+        "timestamp": "2026-07-31T14:01:06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98365833333334,
+          40.57277222222223,
+          4.62045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4751.jpg",
+        "filename": "IMG_4751",
+        "altitude": 5.00202,
+        "direction": 258.014,
+        "rotation": 0,
+        "longitude": "-73.9837111111111",
+        "latitude": "40.57272777777778",
+        "timestamp": "2026-07-31T14:01:24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9837111111111,
+          40.57272777777778,
+          5.00202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4752.jpg",
+        "filename": "IMG_4752",
+        "altitude": 4.37015,
+        "direction": 317.304,
+        "rotation": 0,
+        "longitude": "-73.98374166666667",
+        "latitude": "40.57273888888889",
+        "timestamp": "2026-07-31T14:01:27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98374166666667,
+          40.57273888888889,
+          4.37015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4753.jpg",
+        "filename": "IMG_4753",
+        "altitude": 4.76382,
+        "direction": 268.809,
+        "rotation": 0,
+        "longitude": "-73.98399444444445",
+        "latitude": "40.57279166666667",
+        "timestamp": "2026-07-31T14:01:50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98399444444445,
+          40.57279166666667,
+          4.76382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4754.jpg",
+        "filename": "IMG_4754",
+        "altitude": 5.11249,
+        "direction": 277.805,
+        "rotation": 0,
+        "longitude": "-73.9843361111111",
+        "latitude": "40.572783333333334",
+        "timestamp": "2026-07-31T14:02:29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9843361111111,
+          40.572783333333334,
+          5.11249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4755.jpg",
+        "filename": "IMG_4755",
+        "altitude": 4.94406,
+        "direction": 238.577,
+        "rotation": 0,
+        "longitude": "-73.9843361111111",
+        "latitude": "40.57277777777778",
+        "timestamp": "2026-07-31T14:02:31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9843361111111,
+          40.57277777777778,
+          4.94406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4756.jpg",
+        "filename": "IMG_4756",
+        "altitude": 4.43261,
+        "direction": 268.78,
+        "rotation": 0,
+        "longitude": "-73.98438888888889",
+        "latitude": "40.57277777777778",
+        "timestamp": "2026-07-31T14:02:38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98438888888889,
+          40.57277777777778,
+          4.43261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4757.jpg",
+        "filename": "IMG_4757",
+        "altitude": 4.56702,
+        "direction": 36.4426,
+        "rotation": 0,
+        "longitude": "-73.98460277777778",
+        "latitude": "40.57274166666667",
+        "timestamp": "2026-07-31T14:03:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98460277777778,
+          40.57274166666667,
+          4.56702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4758.jpg",
+        "filename": "IMG_4758",
+        "altitude": 4.19483,
+        "direction": 42.7025,
+        "rotation": 0,
+        "longitude": "-73.98460277777778",
+        "latitude": "40.572750000000006",
+        "timestamp": "2026-07-31T14:03:02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98460277777778,
+          40.57275,
+          4.19483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4759.jpg",
+        "filename": "IMG_4759",
+        "altitude": 3.83035,
+        "direction": 270.697,
+        "rotation": 0,
+        "longitude": "-73.98459722222222",
+        "latitude": "40.57273888888889",
+        "timestamp": "2026-07-31T14:03:05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98459722222222,
+          40.57273888888889,
+          3.83035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4760.jpg",
+        "filename": "IMG_4760",
+        "altitude": 5.11352,
+        "direction": 14.8626,
+        "rotation": 0,
+        "longitude": "-73.98500833333334",
+        "latitude": "40.57266111111112",
+        "timestamp": "2026-07-31T14:03:39"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98500833333334,
+          40.57266111111112,
+          5.11352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4761.jpg",
+        "filename": "IMG_4761",
+        "altitude": 4.31044,
+        "direction": 271.586,
+        "rotation": 0,
+        "longitude": "-73.98499166666667",
+        "latitude": "40.57266666666667",
+        "timestamp": "2026-07-31T14:03:42"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98499166666667,
+          40.57266666666667,
+          4.31044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4762.jpg",
+        "filename": "IMG_4762",
+        "altitude": 4.53254,
+        "direction": 261.604,
+        "rotation": 0,
+        "longitude": "-73.98519166666667",
+        "latitude": "40.572636111111116",
+        "timestamp": "2026-07-31T14:04:01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98519166666667,
+          40.572636111111116,
+          4.53254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4763.jpg",
+        "filename": "IMG_4763",
+        "altitude": 3.9081,
+        "direction": 295.449,
+        "rotation": 0,
+        "longitude": "-73.98525277777777",
+        "latitude": "40.57264444444445",
+        "timestamp": "2026-07-31T14:04:04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98525277777777,
+          40.57264444444445,
+          3.9081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4764.jpg",
+        "filename": "IMG_4764",
+        "altitude": 3.2118,
+        "direction": 290.146,
+        "rotation": 0,
+        "longitude": "-73.98533611111111",
+        "latitude": "40.572675000000004",
+        "timestamp": "2026-07-31T14:04:16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98533611111111,
+          40.572675,
+          3.2118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4765.jpg",
+        "filename": "IMG_4765",
+        "altitude": 3.01945,
+        "direction": 254.221,
+        "rotation": 0,
+        "longitude": "-73.98533611111111",
+        "latitude": "40.57266666666667",
+        "timestamp": "2026-07-31T14:04:18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98533611111111,
+          40.57266666666667,
+          3.01945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4766.jpg",
+        "filename": "IMG_4766",
+        "altitude": 4.07296,
+        "direction": 258.661,
+        "rotation": 0,
+        "longitude": "-73.98551111111111",
+        "latitude": "40.57264444444445",
+        "timestamp": "2026-07-31T14:04:35"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98551111111111,
+          40.57264444444445,
+          4.07296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4767.jpg",
+        "filename": "IMG_4767",
+        "altitude": 3.73828,
+        "direction": 256.889,
+        "rotation": 0,
+        "longitude": "-73.98574166666667",
+        "latitude": "40.57264444444445",
+        "timestamp": "2026-07-31T14:04:53"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98574166666667,
+          40.57264444444445,
+          3.73828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4768.jpg",
+        "filename": "IMG_4768",
+        "altitude": 5.23733,
+        "direction": 255.986,
+        "rotation": 0,
+        "longitude": "-73.98623611111111",
+        "latitude": "40.572608333333335",
+        "timestamp": "2026-07-31T14:05:39"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98623611111111,
+          40.572608333333335,
+          5.23733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4769.jpg",
+        "filename": "IMG_4769",
+        "altitude": 4.51722,
+        "direction": 287.5,
+        "rotation": 0,
+        "longitude": "-73.98641944444445",
+        "latitude": "40.57263888888889",
+        "timestamp": "2026-07-31T14:05:59"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98641944444445,
+          40.57263888888889,
+          4.51722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4770.jpg",
+        "filename": "IMG_4770",
+        "altitude": 5.4421,
+        "direction": 257.45,
+        "rotation": 0,
+        "longitude": "-73.98669444444444",
+        "latitude": "40.572588888888895",
+        "timestamp": "2026-07-31T14:06:22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98669444444444,
+          40.572588888888895,
+          5.4421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4771.jpg",
+        "filename": "IMG_4771",
+        "altitude": 5.38994,
+        "direction": 95.0983,
+        "rotation": 0,
+        "longitude": "-73.98670277777778",
+        "latitude": "40.57259722222223",
+        "timestamp": "2026-07-31T14:06:25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98670277777778,
+          40.57259722222223,
+          5.38994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4772.jpg",
+        "filename": "IMG_4772",
+        "altitude": 4.59516,
+        "direction": 264.189,
+        "rotation": 0,
+        "longitude": "-73.9870138888889",
+        "latitude": "40.57253333333334",
+        "timestamp": "2026-07-31T14:06:50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9870138888889,
+          40.57253333333334,
+          4.59516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4773.jpg",
+        "filename": "IMG_4773",
+        "altitude": 3.67877,
+        "direction": 230.456,
+        "rotation": 0,
+        "longitude": "-73.98713055555555",
+        "latitude": "40.57250555555556",
+        "timestamp": "2026-07-31T14:07:01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98713055555555,
+          40.57250555555556,
+          3.67877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4774.jpg",
+        "filename": "IMG_4774",
+        "altitude": 4.44238,
+        "direction": 343.667,
+        "rotation": 0,
+        "longitude": "-73.98724444444444",
+        "latitude": "40.57251111111111",
+        "timestamp": "2026-07-31T14:07:17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98724444444444,
+          40.57251111111111,
+          4.44238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4775.jpg",
+        "filename": "IMG_4775",
+        "altitude": 4.57414,
+        "direction": 359.731,
+        "rotation": 0,
+        "longitude": "-73.98736666666667",
+        "latitude": "40.572563888888894",
+        "timestamp": "2026-07-31T14:07:28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98736666666667,
+          40.572563888888894,
+          4.57414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4776.jpg",
+        "filename": "IMG_4776",
+        "altitude": 4.52836,
+        "direction": 309.198,
+        "rotation": 0,
+        "longitude": "-73.98736666666667",
+        "latitude": "40.57255277777778",
+        "timestamp": "2026-07-31T14:07:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98736666666667,
+          40.57255277777778,
+          4.52836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4777.jpg",
+        "filename": "IMG_4777",
+        "altitude": 4.94925,
+        "direction": 2.04224,
+        "rotation": 0,
+        "longitude": "-73.98760277777778",
+        "latitude": "40.572497222222225",
+        "timestamp": "2026-07-31T14:08:01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98760277777778,
+          40.572497222222225,
+          4.94925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4778.jpg",
+        "filename": "IMG_4778",
+        "altitude": 4.03565,
+        "direction": 251.04,
+        "rotation": 0,
+        "longitude": "-73.98770833333333",
+        "latitude": "40.57243611111112",
+        "timestamp": "2026-07-31T14:08:15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98770833333333,
+          40.57243611111112,
+          4.03565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4779.jpg",
+        "filename": "IMG_4779",
+        "altitude": 4.37814,
+        "direction": 265.562,
+        "rotation": 0,
+        "longitude": "-73.98796111111112",
+        "latitude": "40.57244444444445",
+        "timestamp": "2026-07-31T14:08:47"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98796111111112,
+          40.57244444444445,
+          4.37814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4780.jpg",
+        "filename": "IMG_4780",
+        "altitude": 4.05957,
+        "direction": 276.407,
+        "rotation": 0,
+        "longitude": "-73.98804444444444",
+        "latitude": "40.572430555555556",
+        "timestamp": "2026-07-31T14:08:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98804444444444,
+          40.572430555555556,
+          4.05957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4781.jpg",
+        "filename": "IMG_4781",
+        "altitude": 4.93612,
+        "direction": 202.01,
+        "rotation": 0,
+        "longitude": "-73.9882361111111",
+        "latitude": "40.572388888888895",
+        "timestamp": "2026-07-31T14:09:14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9882361111111,
+          40.572388888888895,
+          4.93612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4782.jpg",
+        "filename": "IMG_4782",
+        "altitude": 4.63491,
+        "direction": 20.628,
+        "rotation": 0,
+        "longitude": "-73.98830277777778",
+        "latitude": "40.57239444444445",
+        "timestamp": "2026-07-31T14:09:24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98830277777778,
+          40.57239444444445,
+          4.63491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4783.jpg",
+        "filename": "IMG_4783",
+        "altitude": 4.71751,
+        "direction": 261.537,
+        "rotation": 0,
+        "longitude": "-73.98837222222222",
+        "latitude": "40.572388888888895",
+        "timestamp": "2026-07-31T14:09:38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98837222222222,
+          40.572388888888895,
+          4.71751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4784.jpg",
+        "filename": "IMG_4784",
+        "altitude": 4.60873,
+        "direction": 253.629,
+        "rotation": 0,
+        "longitude": "-73.98855555555555",
+        "latitude": "40.572319444444446",
+        "timestamp": "2026-07-31T14:09:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98855555555555,
+          40.572319444444446,
+          4.60873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4785.jpg",
+        "filename": "IMG_4785",
+        "altitude": 4.83935,
+        "direction": 37.9037,
+        "rotation": 0,
+        "longitude": "-73.98864722222223",
+        "latitude": "40.57230833333334",
+        "timestamp": "2026-07-31T14:10:06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98864722222223,
+          40.57230833333334,
+          4.83935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4786.jpg",
+        "filename": "IMG_4786",
+        "altitude": 4.92104,
+        "direction": 271.3,
+        "rotation": 0,
+        "longitude": "-73.98875555555556",
+        "latitude": "40.57223055555556",
+        "timestamp": "2026-07-31T14:10:19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98875555555556,
+          40.57223055555556,
+          4.92104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4787.jpg",
+        "filename": "IMG_4787",
+        "altitude": 4.79669,
+        "direction": 317.135,
+        "rotation": 0,
+        "longitude": "-73.98889166666667",
+        "latitude": "40.572205555555556",
+        "timestamp": "2026-07-31T14:10:31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98889166666667,
+          40.572205555555556,
+          4.79669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4788.jpg",
+        "filename": "IMG_4788",
+        "altitude": 4.68619,
+        "direction": 59.6386,
+        "rotation": 0,
+        "longitude": "-73.988975",
+        "latitude": "40.57224166666667",
+        "timestamp": "2026-07-31T14:10:45"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.988975,
+          40.57224166666667,
+          4.68619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4789.jpg",
+        "filename": "IMG_4789",
+        "altitude": 3.84735,
+        "direction": 246.239,
+        "rotation": 0,
+        "longitude": "-73.9891138888889",
+        "latitude": "40.57218055555556",
+        "timestamp": "2026-07-31T14:11:01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9891138888889,
+          40.57218055555556,
+          3.84735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4790.jpg",
+        "filename": "IMG_4790",
+        "altitude": 3.60966,
+        "direction": 57.6818,
+        "rotation": 0,
+        "longitude": "-73.98936388888889",
+        "latitude": "40.572136111111114",
+        "timestamp": "2026-07-31T14:11:26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98936388888889,
+          40.572136111111114,
+          3.60966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4791.jpg",
+        "filename": "IMG_4791",
+        "altitude": 3.17553,
+        "direction": 353.246,
+        "rotation": 0,
+        "longitude": "-73.98935",
+        "latitude": "40.57210833333334",
+        "timestamp": "2026-07-31T14:11:35"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98935,
+          40.57210833333334,
+          3.17553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4792.jpg",
+        "filename": "IMG_4792",
+        "altitude": 3.05735,
+        "direction": 40.0832,
+        "rotation": 0,
+        "longitude": "-73.98941666666667",
+        "latitude": "40.57213333333333",
+        "timestamp": "2026-07-31T14:11:44"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98941666666667,
+          40.57213333333333,
+          3.05735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4793.jpg",
+        "filename": "IMG_4793",
+        "altitude": 3.09529,
+        "direction": 269.223,
+        "rotation": 0,
+        "longitude": "-73.98940277777778",
+        "latitude": "40.57211388888889",
+        "timestamp": "2026-07-31T14:11:47"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98940277777778,
+          40.57211388888889,
+          3.09529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4794.jpg",
+        "filename": "IMG_4794",
+        "altitude": 4.48158,
+        "direction": 252.102,
+        "rotation": 0,
+        "longitude": "-73.9896",
+        "latitude": "40.57204444444445",
+        "timestamp": "2026-07-31T14:12:02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9896,
+          40.57204444444445,
+          4.48158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4795.jpg",
+        "filename": "IMG_4795",
+        "altitude": 4.28813,
+        "direction": 297.608,
+        "rotation": 0,
+        "longitude": "-73.98960833333334",
+        "latitude": "40.572027777777784",
+        "timestamp": "2026-07-31T14:12:05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98960833333334,
+          40.572027777777784,
+          4.28813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4796.jpg",
+        "filename": "IMG_4796",
+        "altitude": 5.60803,
+        "direction": 248.716,
+        "rotation": 0,
+        "longitude": "-73.99001944444444",
+        "latitude": "40.57194444444445",
+        "timestamp": "2026-07-31T14:12:42"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99001944444444,
+          40.57194444444445,
+          5.60803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4797.jpg",
+        "filename": "IMG_4797",
+        "altitude": 4.64779,
+        "direction": 51.0337,
+        "rotation": 0,
+        "longitude": "-73.99016666666667",
+        "latitude": "40.571938888888894",
+        "timestamp": "2026-07-31T14:12:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99016666666667,
+          40.571938888888894,
+          4.64779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4798.jpg",
+        "filename": "IMG_4798",
+        "altitude": 4.51964,
+        "direction": 338.617,
+        "rotation": 0,
+        "longitude": "-73.99029444444444",
+        "latitude": "40.57185833333334",
+        "timestamp": "2026-07-31T14:13:14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99029444444444,
+          40.57185833333334,
+          4.51964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4799.jpg",
+        "filename": "IMG_4799",
+        "altitude": 3.77498,
+        "direction": 3.74704,
+        "rotation": 0,
+        "longitude": "-73.99047777777778",
+        "latitude": "40.57181666666667",
+        "timestamp": "2026-07-31T14:13:43"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99047777777778,
+          40.57181666666667,
+          3.77498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4800.jpg",
+        "filename": "IMG_4800",
+        "altitude": 4.13137,
+        "direction": 274.089,
+        "rotation": 0,
+        "longitude": "-73.99064722222222",
+        "latitude": "40.57181111111112",
+        "timestamp": "2026-07-31T14:13:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99064722222222,
+          40.57181111111112,
+          4.13137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4801.jpg",
+        "filename": "IMG_4801",
+        "altitude": 3.94919,
+        "direction": 263.199,
+        "rotation": 0,
+        "longitude": "-73.990775",
+        "latitude": "40.57180833333334",
+        "timestamp": "2026-07-31T14:14:10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990775,
+          40.57180833333334,
+          3.94919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4802.jpg",
+        "filename": "IMG_4802",
+        "altitude": 4.87266,
+        "direction": 286.814,
+        "rotation": 0,
+        "longitude": "-73.99092777777778",
+        "latitude": "40.57174722222223",
+        "timestamp": "2026-07-31T14:14:27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99092777777778,
+          40.57174722222223,
+          4.87266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4803.jpg",
+        "filename": "IMG_4803",
+        "altitude": 4.67605,
+        "direction": 251.806,
+        "rotation": 0,
+        "longitude": "-73.99109722222222",
+        "latitude": "40.57159444444445",
+        "timestamp": "2026-07-31T14:14:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99109722222222,
+          40.57159444444445,
+          4.67605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4804.jpg",
+        "filename": "IMG_4804",
+        "altitude": 4.4707,
+        "direction": 243.485,
+        "rotation": 0,
+        "longitude": "-73.99109722222222",
+        "latitude": "40.57159444444445",
+        "timestamp": "2026-07-31T14:14:59"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99109722222222,
+          40.57159444444445,
+          4.4707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4805.jpg",
+        "filename": "IMG_4805",
+        "altitude": 4.16909,
+        "direction": 177.286,
+        "rotation": 0,
+        "longitude": "-73.99109722222222",
+        "latitude": "40.57159722222222",
+        "timestamp": "2026-07-31T14:15:01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99109722222222,
+          40.57159722222222,
+          4.16909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4806.jpg",
+        "filename": "IMG_4806",
+        "altitude": 3.59457,
+        "direction": 350.234,
+        "rotation": 0,
+        "longitude": "-73.99134166666667",
+        "latitude": "40.571675000000006",
+        "timestamp": "2026-07-31T14:15:29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99134166666667,
+          40.571675,
+          3.59457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4807.jpg",
+        "filename": "IMG_4807",
+        "altitude": 3.77554,
+        "direction": 12.6891,
+        "rotation": 0,
+        "longitude": "-73.99139444444445",
+        "latitude": "40.57176666666667",
+        "timestamp": "2026-07-31T14:15:38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99139444444445,
+          40.57176666666667,
+          3.77554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4808.jpg",
+        "filename": "IMG_4808",
+        "altitude": 3.20839,
+        "direction": 326.834,
+        "rotation": 0,
+        "longitude": "-73.99140277777778",
+        "latitude": "40.571780555555556",
+        "timestamp": "2026-07-31T14:15:49"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99140277777778,
+          40.571780555555556,
+          3.20839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4809.jpg",
+        "filename": "IMG_4809",
+        "altitude": 4.10204,
+        "direction": 264.492,
+        "rotation": 0,
+        "longitude": "-73.99168333333333",
+        "latitude": "40.57165555555556",
+        "timestamp": "2026-07-31T14:16:14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99168333333333,
+          40.57165555555556,
+          4.10204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4811.jpg",
+        "filename": "IMG_4811",
+        "altitude": 3.81419,
+        "direction": 45.0823,
+        "rotation": 0,
+        "longitude": "-73.99214166666667",
+        "latitude": "40.571725",
+        "timestamp": "2026-07-31T14:16:59"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99214166666667,
+          40.571725,
+          3.81419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4812.jpg",
+        "filename": "IMG_4812",
+        "altitude": 2.73966,
+        "direction": 351.636,
+        "rotation": 0,
+        "longitude": "-73.99221111111112",
+        "latitude": "40.57168888888889",
+        "timestamp": "2026-07-31T14:17:09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99221111111112,
+          40.57168888888889,
+          2.73966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4813.jpg",
+        "filename": "IMG_4813",
+        "altitude": 3.0213,
+        "direction": 80.7502,
+        "rotation": 0,
+        "longitude": "-73.99221111111112",
+        "latitude": "40.57168333333334",
+        "timestamp": "2026-07-31T14:17:12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99221111111112,
+          40.57168333333334,
+          3.0213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4814.jpg",
+        "filename": "IMG_4814",
+        "altitude": 3.9413,
+        "direction": 354.458,
+        "rotation": 0,
+        "longitude": "-73.99246111111111",
+        "latitude": "40.57153055555556",
+        "timestamp": "2026-07-31T14:17:39"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99246111111111,
+          40.57153055555556,
+          3.9413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4815.jpg",
+        "filename": "IMG_4815",
+        "altitude": 4.24781,
+        "direction": 56.3724,
+        "rotation": 0,
+        "longitude": "-73.99263888888889",
+        "latitude": "40.57157222222222",
+        "timestamp": "2026-07-31T14:17:50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99263888888889,
+          40.57157222222222,
+          4.24781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4816.jpg",
+        "filename": "IMG_4816",
+        "altitude": 4.50488,
+        "direction": 303.411,
+        "rotation": 0,
+        "longitude": "-73.992775",
+        "latitude": "40.57159444444445",
+        "timestamp": "2026-07-31T14:18:09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992775,
+          40.57159444444445,
+          4.50488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4817.jpg",
+        "filename": "IMG_4817",
+        "altitude": 3.61869,
+        "direction": 335.607,
+        "rotation": 0,
+        "longitude": "-73.9927888888889",
+        "latitude": "40.57170833333333",
+        "timestamp": "2026-07-31T14:18:25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9927888888889,
+          40.57170833333333,
+          3.61869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4818.jpg",
+        "filename": "IMG_4818",
+        "altitude": 3.79708,
+        "direction": 287.678,
+        "rotation": 0,
+        "longitude": "-73.99279722222222",
+        "latitude": "40.571711111111114",
+        "timestamp": "2026-07-31T14:18:27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99279722222222,
+          40.571711111111114,
+          3.79708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4819.jpg",
+        "filename": "IMG_4819",
+        "altitude": 5.55813,
+        "direction": 236.311,
+        "rotation": 0,
+        "longitude": "-73.99305833333334",
+        "latitude": "40.57163333333334",
+        "timestamp": "2026-07-31T14:18:48"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99305833333334,
+          40.57163333333334,
+          5.55813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4820.jpg",
+        "filename": "IMG_4820",
+        "altitude": 4.14321,
+        "direction": 261.68,
+        "rotation": 0,
+        "longitude": "-73.99320277777778",
+        "latitude": "40.57163611111111",
+        "timestamp": "2026-07-31T14:19:01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99320277777778,
+          40.57163611111111,
+          4.14321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4821.jpg",
+        "filename": "IMG_4821",
+        "altitude": 4.33081,
+        "direction": 339.503,
+        "rotation": 0,
+        "longitude": "-73.99354444444444",
+        "latitude": "40.57162777777778",
+        "timestamp": "2026-07-31T14:19:27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99354444444444,
+          40.57162777777778,
+          4.33081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4822.jpg",
+        "filename": "IMG_4822",
+        "altitude": 4.24407,
+        "direction": 349.406,
+        "rotation": 0,
+        "longitude": "-73.99356944444445",
+        "latitude": "40.57163888888889",
+        "timestamp": "2026-07-31T14:19:33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99356944444445,
+          40.57163888888889,
+          4.24407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4823.jpg",
+        "filename": "IMG_4823",
+        "altitude": 4.39354,
+        "direction": 288.908,
+        "rotation": 0,
+        "longitude": "-73.99373611111112",
+        "latitude": "40.57162777777778",
+        "timestamp": "2026-07-31T14:19:46"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99373611111112,
+          40.57162777777778,
+          4.39354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4824.jpg",
+        "filename": "IMG_4824",
+        "altitude": 4.29686,
+        "direction": 262.692,
+        "rotation": 0,
+        "longitude": "-73.99376666666667",
+        "latitude": "40.571622222222224",
+        "timestamp": "2026-07-31T14:19:52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99376666666667,
+          40.571622222222224,
+          4.29686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4825.jpg",
+        "filename": "IMG_4825",
+        "altitude": 4.50811,
+        "direction": 255.771,
+        "rotation": 0,
+        "longitude": "-73.99391111111112",
+        "latitude": "40.571725",
+        "timestamp": "2026-07-31T14:20:10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99391111111112,
+          40.571725,
+          4.50811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4826.jpg",
+        "filename": "IMG_4826",
+        "altitude": 4.41502,
+        "direction": 257.713,
+        "rotation": 0,
+        "longitude": "-73.99390277777778",
+        "latitude": "40.57171944444445",
+        "timestamp": "2026-07-31T14:20:11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99390277777778,
+          40.57171944444445,
+          4.41502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4827.jpg",
+        "filename": "IMG_4827",
+        "altitude": 4.60529,
+        "direction": 278.96,
+        "rotation": 0,
+        "longitude": "-73.99390277777778",
+        "latitude": "40.57172777777778",
+        "timestamp": "2026-07-31T14:20:15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99390277777778,
+          40.57172777777778,
+          4.60529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4828.jpg",
+        "filename": "IMG_4828",
+        "altitude": 5.02856,
+        "direction": 350.61,
+        "rotation": 0,
+        "longitude": "-73.99413333333334",
+        "latitude": "40.57163611111111",
+        "timestamp": "2026-07-31T14:20:35"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99413333333334,
+          40.57163611111111,
+          5.02856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4829.jpg",
+        "filename": "IMG_4829",
+        "altitude": 4.78457,
+        "direction": 58.8932,
+        "rotation": 0,
+        "longitude": "-73.99443055555555",
+        "latitude": "40.57159722222222",
+        "timestamp": "2026-07-31T14:21:08"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99443055555555,
+          40.57159722222222,
+          4.78457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4830.jpg",
+        "filename": "IMG_4830",
+        "altitude": 4.27469,
+        "direction": 344.814,
+        "rotation": 0,
+        "longitude": "-73.99459166666666",
+        "latitude": "40.57154722222223",
+        "timestamp": "2026-07-31T14:21:23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99459166666666,
+          40.57154722222223,
+          4.27469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4831.jpg",
+        "filename": "IMG_4831",
+        "altitude": 4.37645,
+        "direction": 208.531,
+        "rotation": 0,
+        "longitude": "-73.99484166666667",
+        "latitude": "40.571525",
+        "timestamp": "2026-07-31T14:21:47"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99484166666667,
+          40.571525,
+          4.37645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4832.jpg",
+        "filename": "IMG_4832",
+        "altitude": 3.94863,
+        "direction": 264.751,
+        "rotation": 0,
+        "longitude": "-73.99485",
+        "latitude": "40.57152222222223",
+        "timestamp": "2026-07-31T14:21:51"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99485,
+          40.57152222222223,
+          3.94863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4833.jpg",
+        "filename": "IMG_4833",
+        "altitude": 3.44327,
+        "direction": 286.744,
+        "rotation": 0,
+        "longitude": "-73.99519444444445",
+        "latitude": "40.57161666666667",
+        "timestamp": "2026-07-31T14:22:19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99519444444445,
+          40.57161666666667,
+          3.44327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4834.jpg",
+        "filename": "IMG_4834",
+        "altitude": 3.21199,
+        "direction": 289.415,
+        "rotation": 0,
+        "longitude": "-73.99528611111111",
+        "latitude": "40.57160555555556",
+        "timestamp": "2026-07-31T14:22:29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99528611111111,
+          40.57160555555556,
+          3.21199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4835.jpg",
+        "filename": "IMG_4835",
+        "altitude": 3.49926,
+        "direction": 285.985,
+        "rotation": 0,
+        "longitude": "-73.99536111111111",
+        "latitude": "40.57160555555556",
+        "timestamp": "2026-07-31T14:22:40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99536111111111,
+          40.57160555555556,
+          3.49926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4836.jpg",
+        "filename": "IMG_4836",
+        "altitude": 4.24696,
+        "direction": 289.504,
+        "rotation": 0,
+        "longitude": "-73.995475",
+        "latitude": "40.57159722222222",
+        "timestamp": "2026-07-31T14:22:52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.995475,
+          40.57159722222222,
+          4.24696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4837.jpg",
+        "filename": "IMG_4837",
+        "altitude": 4.53994,
+        "direction": 309.285,
+        "rotation": 0,
+        "longitude": "-73.99575833333333",
+        "latitude": "40.57156666666667",
+        "timestamp": "2026-07-31T14:23:18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99575833333333,
+          40.57156666666667,
+          4.53994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4838.jpg",
+        "filename": "IMG_4838",
+        "altitude": 3.67701,
+        "direction": 275.637,
+        "rotation": 0,
+        "longitude": "-73.99578055555556",
+        "latitude": "40.57156388888889",
+        "timestamp": "2026-07-31T14:23:24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99578055555556,
+          40.57156388888889,
+          3.67701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4839.jpg",
+        "filename": "IMG_4839",
+        "altitude": 5.63365,
+        "direction": 284.553,
+        "rotation": 0,
+        "longitude": "-73.99601666666666",
+        "latitude": "40.57155277777778",
+        "timestamp": "2026-07-31T14:23:48"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99601666666666,
+          40.57155277777778,
+          5.63365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4840.jpg",
+        "filename": "IMG_4840",
+        "altitude": 5.01203,
+        "direction": 75.7628,
+        "rotation": 0,
+        "longitude": "-73.996025",
+        "latitude": "40.57155277777778",
+        "timestamp": "2026-07-31T14:23:51"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996025,
+          40.57155277777778,
+          5.01203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4841.jpg",
+        "filename": "IMG_4841",
+        "altitude": 4.08152,
+        "direction": 314.086,
+        "rotation": 0,
+        "longitude": "-73.99611666666667",
+        "latitude": "40.571561111111116",
+        "timestamp": "2026-07-31T14:24:02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99611666666667,
+          40.571561111111116,
+          4.08152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4842.jpg",
+        "filename": "IMG_4842",
+        "altitude": 5.507,
+        "direction": 260.18,
+        "rotation": 0,
+        "longitude": "-73.99644444444445",
+        "latitude": "40.57154444444445",
+        "timestamp": "2026-07-31T14:24:31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99644444444445,
+          40.57154444444445,
+          5.507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4843.jpg",
+        "filename": "IMG_4843",
+        "altitude": 4.14799,
+        "direction": 5.56247,
+        "rotation": 0,
+        "longitude": "-73.99678055555556",
+        "latitude": "40.57157777777778",
+        "timestamp": "2026-07-31T14:24:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99678055555556,
+          40.57157777777778,
+          4.14799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4844.jpg",
+        "filename": "IMG_4844",
+        "altitude": 4.00963,
+        "direction": 72.0203,
+        "rotation": 0,
+        "longitude": "-73.99694166666667",
+        "latitude": "40.57160555555556",
+        "timestamp": "2026-07-31T14:25:16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99694166666667,
+          40.57160555555556,
+          4.00963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4845.jpg",
+        "filename": "IMG_4845",
+        "altitude": 4.2112,
+        "direction": 269.415,
+        "rotation": 0,
+        "longitude": "-73.9972",
+        "latitude": "40.571602777777784",
+        "timestamp": "2026-07-31T14:25:39"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9972,
+          40.571602777777784,
+          4.2112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4846.jpg",
+        "filename": "IMG_4846",
+        "altitude": 2.99482,
+        "direction": 284.572,
+        "rotation": 0,
+        "longitude": "-73.997375",
+        "latitude": "40.57165277777778",
+        "timestamp": "2026-07-31T14:25:55"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997375,
+          40.57165277777778,
+          2.99482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4847.jpg",
+        "filename": "IMG_4847",
+        "altitude": 3.86529,
+        "direction": 22.472,
+        "rotation": 0,
+        "longitude": "-73.99767222222222",
+        "latitude": "40.57168611111111",
+        "timestamp": "2026-07-31T14:26:34"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99767222222222,
+          40.57168611111111,
+          3.86529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4848.jpg",
+        "filename": "IMG_4848",
+        "altitude": 3.30876,
+        "direction": 80.7279,
+        "rotation": 0,
+        "longitude": "-73.99766666666667",
+        "latitude": "40.57169444444445",
+        "timestamp": "2026-07-31T14:26:41"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99766666666667,
+          40.57169444444445,
+          3.30876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4849.jpg",
+        "filename": "IMG_4849",
+        "altitude": 4.17833,
+        "direction": 342.999,
+        "rotation": 0,
+        "longitude": "-73.99790833333333",
+        "latitude": "40.571644444444445",
+        "timestamp": "2026-07-31T14:27:04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99790833333333,
+          40.571644444444445,
+          4.17833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4850.jpg",
+        "filename": "IMG_4850",
+        "altitude": 4.54051,
+        "direction": 324.206,
+        "rotation": 0,
+        "longitude": "-73.99834444444444",
+        "latitude": "40.57173055555556",
+        "timestamp": "2026-07-31T14:28:02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99834444444444,
+          40.57173055555556,
+          4.54051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4851.jpg",
+        "filename": "IMG_4851",
+        "altitude": 5.91263,
+        "direction": 38.5085,
+        "rotation": 0,
+        "longitude": "-73.99835833333333",
+        "latitude": "40.57169444444445",
+        "timestamp": "2026-07-31T14:28:31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99835833333333,
+          40.57169444444445,
+          5.91263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4852.jpg",
+        "filename": "IMG_4852",
+        "altitude": 7.34424,
+        "direction": 280.767,
+        "rotation": 0,
+        "longitude": "-73.99863333333333",
+        "latitude": "40.57168888888889",
+        "timestamp": "2026-07-31T14:28:50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99863333333333,
+          40.57168888888889,
+          7.34424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4853.jpg",
+        "filename": "IMG_4853",
+        "altitude": 4.67669,
+        "direction": 299.902,
+        "rotation": 0,
+        "longitude": "-73.99890833333333",
+        "latitude": "40.571725",
+        "timestamp": "2026-07-31T14:29:12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99890833333333,
+          40.571725,
+          4.67669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4854.jpg",
+        "filename": "IMG_4854",
+        "altitude": 3.53396,
+        "direction": 353.424,
+        "rotation": 0,
+        "longitude": "-73.99896111111111",
+        "latitude": "40.57177222222222",
+        "timestamp": "2026-07-31T14:29:17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99896111111111,
+          40.57177222222222,
+          3.53396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4855.jpg",
+        "filename": "IMG_4855",
+        "altitude": 5.54627,
+        "direction": 262.709,
+        "rotation": 0,
+        "longitude": "-73.99932777777778",
+        "latitude": "40.57179722222222",
+        "timestamp": "2026-07-31T14:29:49"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99932777777778,
+          40.57179722222222,
+          5.54627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4856.jpg",
+        "filename": "IMG_4856",
+        "altitude": 4.74295,
+        "direction": 315.874,
+        "rotation": 0,
+        "longitude": "-73.99961944444445",
+        "latitude": "40.57181111111112",
+        "timestamp": "2026-07-31T14:30:10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99961944444445,
+          40.57181111111112,
+          4.74295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4857.jpg",
+        "filename": "IMG_4857",
+        "altitude": 4.86983,
+        "direction": 341.469,
+        "rotation": 0,
+        "longitude": "-73.99993055555555",
+        "latitude": "40.571847222222225",
+        "timestamp": "2026-07-31T14:30:35"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99993055555555,
+          40.571847222222225,
+          4.86983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4858.jpg",
+        "filename": "IMG_4858",
+        "altitude": 4.60786,
+        "direction": 328.447,
+        "rotation": 0,
+        "longitude": "-74.00000833333333",
+        "latitude": "40.57185277777778",
+        "timestamp": "2026-07-31T14:30:45"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00000833333333,
+          40.57185277777778,
+          4.60786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4859.jpg",
+        "filename": "IMG_4859",
+        "altitude": 3.28304,
+        "direction": 347.946,
+        "rotation": 0,
+        "longitude": "-74.00006111111111",
+        "latitude": "40.57190833333334",
+        "timestamp": "2026-07-31T14:30:55"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00006111111111,
+          40.57190833333334,
+          3.28304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4860.jpg",
+        "filename": "IMG_4860",
+        "altitude": 4.0944,
+        "direction": 307.819,
+        "rotation": 0,
+        "longitude": "-74.00018333333334",
+        "latitude": "40.57190833333334",
+        "timestamp": "2026-07-31T14:31:04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00018333333334,
+          40.57190833333334,
+          4.0944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4861.jpg",
+        "filename": "IMG_4861",
+        "altitude": 2.58338,
+        "direction": 305.923,
+        "rotation": 0,
+        "longitude": "-74.00033611111111",
+        "latitude": "40.57201111111112",
+        "timestamp": "2026-07-31T14:31:26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00033611111111,
+          40.57201111111112,
+          2.58338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4862.jpg",
+        "filename": "IMG_4862",
+        "altitude": 2.53616,
+        "direction": 295.107,
+        "rotation": 0,
+        "longitude": "-74.00051944444445",
+        "latitude": "40.57206666666667",
+        "timestamp": "2026-07-31T14:31:43"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00051944444445,
+          40.57206666666667,
+          2.53616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4863.jpg",
+        "filename": "IMG_4863",
+        "altitude": 4.6012,
+        "direction": 312.568,
+        "rotation": 0,
+        "longitude": "-74.00064722222223",
+        "latitude": "40.57212777777778",
+        "timestamp": "2026-07-31T14:31:56"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00064722222223,
+          40.57212777777778,
+          4.6012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4864.jpg",
+        "filename": "IMG_4864",
+        "altitude": 4.35581,
+        "direction": 298.68,
+        "rotation": 0,
+        "longitude": "-74.00079444444444",
+        "latitude": "40.572138888888894",
+        "timestamp": "2026-07-31T14:32:09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00079444444444,
+          40.572138888888894,
+          4.35581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4865.jpg",
+        "filename": "IMG_4865",
+        "altitude": 4.47706,
+        "direction": 260.465,
+        "rotation": 0,
+        "longitude": "-74.00084722222222",
+        "latitude": "40.57213333333333",
+        "timestamp": "2026-07-31T14:32:20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00084722222222,
+          40.57213333333333,
+          4.47706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4866.jpg",
+        "filename": "IMG_4866",
+        "altitude": 4.4767,
+        "direction": 231.751,
+        "rotation": 0,
+        "longitude": "-74.0008388888889",
+        "latitude": "40.572125",
+        "timestamp": "2026-07-31T14:32:24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0008388888889,
+          40.572125,
+          4.4767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4867.jpg",
+        "filename": "IMG_4867",
+        "altitude": 5.5323,
+        "direction": 337.897,
+        "rotation": 0,
+        "longitude": "-74.00101388888889",
+        "latitude": "40.57212777777778",
+        "timestamp": "2026-07-31T14:32:43"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00101388888889,
+          40.57212777777778,
+          5.5323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4868.jpg",
+        "filename": "IMG_4868",
+        "altitude": 5.61058,
+        "direction": 81.2517,
+        "rotation": 0,
+        "longitude": "-74.00100833333333",
+        "latitude": "40.57213333333333",
+        "timestamp": "2026-07-31T14:32:47"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00100833333333,
+          40.57213333333333,
+          5.61058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4869.jpg",
+        "filename": "IMG_4869",
+        "altitude": 5.30203,
+        "direction": 333.689,
+        "rotation": 0,
+        "longitude": "-74.00116666666666",
+        "latitude": "40.57216944444445",
+        "timestamp": "2026-07-31T14:33:01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00116666666666,
+          40.57216944444445,
+          5.30203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4870.jpg",
+        "filename": "IMG_4870",
+        "altitude": 5.61095,
+        "direction": 38.2424,
+        "rotation": 0,
+        "longitude": "-74.00131111111111",
+        "latitude": "40.57223888888889",
+        "timestamp": "2026-07-31T14:33:20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00131111111111,
+          40.57223888888889,
+          5.61095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4871.jpg",
+        "filename": "IMG_4871",
+        "altitude": 5.24169,
+        "direction": 353.544,
+        "rotation": 0,
+        "longitude": "-74.00131111111111",
+        "latitude": "40.57223055555556",
+        "timestamp": "2026-07-31T14:33:21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00131111111111,
+          40.57223055555556,
+          5.24169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4872.jpg",
+        "filename": "IMG_4872",
+        "altitude": 7.24933,
+        "direction": 93.9969,
+        "rotation": 0,
+        "longitude": "-74.00142777777778",
+        "latitude": "40.572208333333336",
+        "timestamp": "2026-07-31T14:33:38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00142777777778,
+          40.572208333333336,
+          7.24933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4873.jpg",
+        "filename": "IMG_4873",
+        "altitude": 4.75093,
+        "direction": 217.58,
+        "rotation": 0,
+        "longitude": "-74.00151944444444",
+        "latitude": "40.57221666666667",
+        "timestamp": "2026-07-31T14:33:46"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00151944444444,
+          40.57221666666667,
+          4.75093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4874.jpg",
+        "filename": "IMG_4874",
+        "altitude": 6.45776,
+        "direction": 283.903,
+        "rotation": 0,
+        "longitude": "-74.00193055555556",
+        "latitude": "40.57226666666667",
+        "timestamp": "2026-07-31T14:34:45"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00193055555556,
+          40.57226666666667,
+          6.45776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4875.jpg",
+        "filename": "IMG_4875",
+        "altitude": 5.40387,
+        "direction": 312.888,
+        "rotation": 0,
+        "longitude": "-74.001975",
+        "latitude": "40.57231111111111",
+        "timestamp": "2026-07-31T14:34:51"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.001975,
+          40.57231111111111,
+          5.40387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4876.jpg",
+        "filename": "IMG_4876",
+        "altitude": 4.82539,
+        "direction": 27.926,
+        "rotation": 0,
+        "longitude": "-74.00196944444444",
+        "latitude": "40.572319444444446",
+        "timestamp": "2026-07-31T14:34:53"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00196944444444,
+          40.572319444444446,
+          4.82539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4877.jpg",
+        "filename": "IMG_4877",
+        "altitude": 4.43821,
+        "direction": 116.619,
+        "rotation": 0,
+        "longitude": "-74.00196111111111",
+        "latitude": "40.57231111111111",
+        "timestamp": "2026-07-31T14:34:55"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00196111111111,
+          40.57231111111111,
+          4.43821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4878.jpg",
+        "filename": "IMG_4878",
+        "altitude": 4.06572,
+        "direction": 144.01,
+        "rotation": 0,
+        "longitude": "-74.00196944444444",
+        "latitude": "40.57230833333334",
+        "timestamp": "2026-07-31T14:34:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00196944444444,
+          40.57230833333334,
+          4.06572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4879.jpg",
+        "filename": "IMG_4879",
+        "altitude": 3.34069,
+        "direction": 346.217,
+        "rotation": 0,
+        "longitude": "-74.00225",
+        "latitude": "40.57233888888889",
+        "timestamp": "2026-07-31T14:35:21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00225,
+          40.57233888888889,
+          3.34069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4880.jpg",
+        "filename": "IMG_4880",
+        "altitude": 2.81027,
+        "direction": 288.681,
+        "rotation": 0,
+        "longitude": "-74.00223611111112",
+        "latitude": "40.57233333333334",
+        "timestamp": "2026-07-31T14:35:25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00223611111112,
+          40.57233333333334,
+          2.81027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4881.jpg",
+        "filename": "IMG_4881",
+        "altitude": 2.91284,
+        "direction": 115.341,
+        "rotation": 0,
+        "longitude": "-74.00224166666666",
+        "latitude": "40.57233055555556",
+        "timestamp": "2026-07-31T14:35:28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00224166666666,
+          40.57233055555556,
+          2.91284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4882.jpg",
+        "filename": "IMG_4882",
+        "altitude": 4.12939,
+        "direction": 334.71,
+        "rotation": 0,
+        "longitude": "-74.00234166666667",
+        "latitude": "40.57246666666667",
+        "timestamp": "2026-07-31T14:36:03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00234166666667,
+          40.57246666666667,
+          4.12939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "photo": "photos/IMG_4883.jpg",
+        "filename": "IMG_4883",
+        "altitude": 3.43603,
+        "direction": 343.934,
+        "rotation": 0,
+        "longitude": "-74.00229722222223",
+        "latitude": "40.572425",
+        "timestamp": "2026-07-31T14:36:09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00229722222223,
+          40.572425,
+          3.43603
+        ]
+      }
+    }
+  ]
+}
