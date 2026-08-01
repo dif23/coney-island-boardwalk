@@ -59,12 +59,12 @@
       color: #222;
     }
     .popup-photo {
-      width: 100%;
-      height: 75vh;
-      object-fit: cover;
       display: block;
-      border-radius: 0;
-      margin: 0;
+      max-width: 85vw;
+      max-height: 78vh;
+      width: auto;
+      height: auto;
+      margin: 0 auto;
     }
     .popup-text {
       padding: 26px 36px 36px;
@@ -170,8 +170,7 @@
                 <div>${props.timestamp || ''}</div>
               </div>
             `;
-            const popupSize = Math.round(window.innerWidth * 0.98);
-            layer.bindPopup(popupContent, { maxWidth: popupSize, minWidth: popupSize, autoPanPadding: [10, 10] });
+            layer.bindPopup(popupContent, { maxWidth: 1600, minWidth: 300, autoPanPadding: [20, 20] });
           }
         }).addTo(map);
 
