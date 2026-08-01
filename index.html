@@ -63,6 +63,24 @@
       display: block;
     }
 
+    /* Instruction box, upper-left of the map */
+    #instructions-box {
+      position: absolute;
+      top: calc(var(--footer-height) + 16px);
+      left: 16px;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.75);
+      border: 0.5pt solid var(--footer-bg);
+      color: var(--footer-bg);
+      font-family: "Sohne", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.4;
+      padding: 10px 14px;
+      max-width: 260px;
+      border-radius: 4px;
+    }
+
     /* Speech-bubble popups: square corners, image fits flush, 2x size */
     .leaflet-popup-content-wrapper {
       background: #fff;
@@ -173,6 +191,7 @@
 </head>
 <body>
   <div id="map"></div>
+  <div id="instructions-box">Click a dot to view a photo of that location on the Boardwalk. Click the photo to open the image in a new browser tab.</div>
   <div id="map-footer">
     <div id="map-title">Coney Island Boardwalk Photo Repository</div>
     <a id="ost-logo-link" href="https://orchardstreet.nyc" target="_blank" rel="noopener">
@@ -260,7 +279,7 @@
             const props = feature.properties;
             const photoPath = props.photo;
             const popupContent = `
-              <img class="popup-photo" src="${photoPath}" alt="${props.filename}" />
+              <img class="popup-photo" src="${photoPath}" alt="${props.filename}" onclick="window.open('${photoPath}', '_blank')" style="cursor: pointer;" />
               <div class="popup-text">
                 <div class="popup-title">${props.filename}</div>
                 <div>${props.timestamp || ''}</div>
@@ -276,7 +295,7 @@
         // bottom of the screen, computed in actual pixels so it holds
         // regardless of window size or zoom level.
         const mapSize = map.getSize();
-        const targetY = mapSize.y * (2 / 3); // 1/3 up from bottom = 2/3 down from top
+        const targetY = mapSize.y * 0.6; // slightly higher than before
         const offsetY = (mapSize.y / 2) - targetY;
         map.panBy([0, offsetY], { animate: false });
       })
