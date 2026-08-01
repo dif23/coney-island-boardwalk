@@ -80,36 +80,39 @@
       z-index: 10;
     }
 
-    /* Clean, minimal zoom + layer controls, lower left, no shadow box */
+    /* Bottom-left control stacking layout */
     .leaflet-bottom.leaflet-left {
       display: flex;
       flex-direction: column-reverse;
       gap: 8px;
     }
-    .leaflet-control-zoom.leaflet-bar,
-    .leaflet-control-layers.leaflet-bar,
-    .leaflet-bar,
-    .leaflet-bar a,
-    .leaflet-bar a:hover,
-    .leaflet-control-zoom-in,
-    .leaflet-control-zoom-out {
-      box-shadow: none !important;
-      -webkit-box-shadow: none !important;
-      filter: none !important;
-    }
-    .leaflet-control-zoom,
-    .leaflet-control-layers {
-      border: 1px solid #ddd !important;
-      border-radius: 6px !important;
+
+    /* Custom zoom control — fully owned, no Leaflet default styles to fight */
+    #custom-zoom {
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+      border-radius: 6px;
       overflow: hidden;
     }
-    .leaflet-control-zoom a {
-      border: none !important;
+    #custom-zoom button {
+      width: 34px;
+      height: 34px;
+      border: none;
       background: #fff;
       color: var(--brand-color);
+      font-size: 20px;
+      font-family: 'Public Sans', sans-serif;
+      cursor: pointer;
+      display: block;
+      padding: 0;
+      line-height: 1;
     }
-    .leaflet-control-zoom a:hover {
-      background: #f0f0f0;
+    #custom-zoom button:first-child {
+      border-bottom: 1px solid #eee;
+    }
+    #custom-zoom button:hover {
+      background: #f4f4f4;
     }
   </style>
 </head>
@@ -123,18 +126,29 @@
       zoomControl: false
     }).setView([40.5749, -73.9805], 15);
 
-    // Zoom control, bottom left
-    const zoomCtrl = L.control.zoom({ position: 'bottomleft' }).addTo(map);
-    setTimeout(() => {
-      const el = zoomCtrl.getContainer();
-      if (el) {
-        el.style.boxShadow = 'none';
-        el.style.setProperty('box-shadow', 'none', 'important');
-        el.querySelectorAll('a').forEach(a => {
-          a.style.setProperty('box-shadow', 'none', 'important');
-        });
+    // Custom zoom control, bottom left — no Leaflet default classes involved
+    const CustomZoom = L.Control.extend({
+      options: { position: 'bottomleft' },
+      onAdd: function (map) {
+        const container = L.DomUtil.create('div', '');
+        container.id = 'custom-zoom';
+
+        const zoomInBtn = L.DomUtil.create('button', '', container);
+        zoomInBtn.innerHTML = '+';
+        zoomInBtn.type = 'button';
+
+        const zoomOutBtn = L.DomUtil.create('button', '', container);
+        zoomOutBtn.innerHTML = '&minus;';
+        zoomOutBtn.type = 'button';
+
+        L.DomEvent.disableClickPropagation(container);
+        L.DomEvent.on(zoomInBtn, 'click', () => map.zoomIn());
+        L.DomEvent.on(zoomOutBtn, 'click', () => map.zoomOut());
+
+        return container;
       }
-    }, 0);
+    });
+    map.addControl(new CustomZoom());
 
     // Base layers: clean grayscale street map + aerial/satellite
     const streetLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
