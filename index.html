@@ -2,26 +2,102 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Coney Island Photo Map</title>
+  <title>Coney Island Boardwalk Photo Repository</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
-    html, body { margin: 0; padding: 0; height: 100%; }
+    :root {
+      --brand-color: rgb(0, 85, 100);
+    }
+
+    html, body { margin: 0; padding: 0; height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
     #map { width: 100%; height: 100%; }
-    .popup-photo { max-width: 250px; display: block; margin-bottom: 6px; }
+
+    /* Title bar, upper left */
+    #map-title {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      z-index: 1000;
+      background: var(--brand-color);
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-size: 18px;
+      font-weight: 600;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      letter-spacing: 0.3px;
+    }
+
+    /* Speech-bubble style popups */
+    .leaflet-popup-content-wrapper {
+      background: #fff;
+      border: 2px solid var(--brand-color);
+      border-radius: 16px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+    }
+    .leaflet-popup-tip {
+      background: #fff;
+      border: 2px solid var(--brand-color);
+      border-top: none;
+      border-left: none;
+    }
+    .leaflet-popup-content {
+      margin: 12px 14px;
+      font-size: 13px;
+      color: #222;
+    }
+    .popup-photo {
+      max-width: 240px;
+      display: block;
+      border-radius: 10px;
+      margin-bottom: 8px;
+    }
+    .popup-title {
+      color: var(--brand-color);
+      font-weight: 700;
+    }
+
+    /* Zoom control lower-left */
+    .leaflet-bottom.leaflet-left {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 6px;
+    }
   </style>
 </head>
 <body>
   <div id="map"></div>
+  <div id="map-title">Coney Island Boardwalk Photo Repository</div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
-    const map = L.map('map').setView([40.5749, -73.9805], 15);
+    const map = L.map('map', {
+      zoomControl: false
+    }).setView([40.5749, -73.9805], 15);
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    // Zoom control, bottom left
+    L.control.zoom({ position: 'bottomleft' }).addTo(map);
+
+    // Base layers: street map + aerial/satellite
+    const streetLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors',
       maxZoom: 19
-    }).addTo(map);
+    });
+
+    const aerialLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, Maxar, Earthstar Geographics',
+      maxZoom: 19
+    });
+
+    streetLayer.addTo(map);
+
+    // Layer switcher, bottom left, above zoom control
+    L.control.layers(
+      { "Street Map": streetLayer, "Aerial": aerialLayer },
+      null,
+      { position: 'bottomleft', collapsed: true }
+    ).addTo(map);
 
     fetch('points.geojson')
       .then(res => res.json())
@@ -30,10 +106,10 @@
           pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, {
               radius: 6,
-              fillColor: '#ff6600',
-              color: '#333',
-              weight: 1,
-              fillOpacity: 0.8
+              fillColor: 'rgb(0, 85, 100)',
+              color: '#fff',
+              weight: 1.5,
+              fillOpacity: 0.9
             });
           },
           onEachFeature: function (feature, layer) {
@@ -41,8 +117,8 @@
             const photoPath = props.photo;
             const popupContent = `
               <img class="popup-photo" src="${photoPath}" alt="${props.filename}" />
-              <strong>${props.filename}</strong><br>
-              ${props.timestamp || ''}
+              <div class="popup-title">${props.filename}</div>
+              <div>${props.timestamp || ''}</div>
             `;
             layer.bindPopup(popupContent, { maxWidth: 300 });
           }
