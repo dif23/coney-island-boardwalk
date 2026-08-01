@@ -47,7 +47,9 @@
       color: var(--footer-green);
       font-family: "Sohne", sans-serif;
       font-weight: 400;
-      font-size: 28px;
+      font-size: 32px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
       line-height: 1.1;
       white-space: nowrap;
     }
@@ -183,7 +185,7 @@
   <script>
     const map = L.map('map', {
       zoomControl: false
-    }).setView([40.5749, -73.9805], 15);
+    }).setView([40.5745, -73.965], 13);
 
     // Custom zoom control, bottom left — no Leaflet default classes involved
     const CustomZoom = L.Control.extend({
@@ -269,7 +271,7 @@
           }
         }).addTo(map);
 
-        map.fitBounds(layer.getBounds(), { padding: [20, 20] });
+        map.fitBounds(layer.getBounds(), { padding: [60, 60] });
       })
       .catch(err => console.error('Error loading points.geojson:', err));
   </script>
