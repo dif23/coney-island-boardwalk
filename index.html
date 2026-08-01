@@ -42,6 +42,12 @@
       padding: 0;
       overflow: hidden;
     }
+    /* Flip popup to render below the marker: reverse visual order so
+       the tip renders above the content box, arrow pointing up */
+    .leaflet-popup {
+      display: flex;
+      flex-direction: column-reverse;
+    }
     .leaflet-popup-tip-container {
       width: 30px;
       height: 15px;
@@ -50,29 +56,30 @@
       background: #fff;
       box-shadow: none;
       border: none;
+      margin: 4px auto -14px;
     }
     .leaflet-popup-content {
       margin: 0;
       width: auto !important;
-      font-size: 36px;
+      font-size: 18px;
       font-family: 'Public Sans', sans-serif;
       color: #222;
     }
     .popup-photo {
       display: block;
-      max-width: 70vw;
-      max-height: 62vh;
+      max-width: 35vw;
+      max-height: 31vh;
       width: auto;
       height: auto;
       margin: 0 auto;
     }
     .popup-text {
-      padding: 26px 36px 36px;
+      padding: 13px 18px 18px;
     }
     .popup-title {
       color: var(--brand-color);
       font-weight: 700;
-      font-size: 44px;
+      font-size: 22px;
     }
     .leaflet-popup-close-button {
       color: #fff !important;
@@ -153,6 +160,19 @@
     });
     map.addControl(new CustomZoom());
 
+    // Flip popups to open below the marker instead of above.
+    // Leaflet always anchors the popup's bottom to the marker by default;
+    // after opening, we measure its rendered height and shift it down by
+    // exactly that amount, so the (now visually reordered) tip lands at
+    // the marker and the content box hangs below it.
+    map.on('popupopen', function (e) {
+      const container = e.popup._container;
+      if (container) {
+        const height = container.offsetHeight;
+        container.style.marginTop = height + 'px';
+      }
+    });
+
     // Base layers: clean grayscale street map + aerial/satellite
     const streetLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
       attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
@@ -197,7 +217,7 @@
                 <div>${props.timestamp || ''}</div>
               </div>
             `;
-            layer.bindPopup(popupContent, { maxWidth: 1600, minWidth: 300, autoPanPadding: [20, 20] });
+            layer.bindPopup(popupContent, { maxWidth: 1600, minWidth: 300, autoPan: false });
           }
         }).addTo(map);
 
