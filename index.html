@@ -60,8 +60,8 @@
     }
     .popup-photo {
       display: block;
-      max-width: 85vw;
-      max-height: 78vh;
+      max-width: 70vw;
+      max-height: 62vh;
       width: auto;
       height: auto;
       margin: 0 auto;
@@ -124,7 +124,17 @@
     }).setView([40.5749, -73.9805], 15);
 
     // Zoom control, bottom left
-    L.control.zoom({ position: 'bottomleft' }).addTo(map);
+    const zoomCtrl = L.control.zoom({ position: 'bottomleft' }).addTo(map);
+    setTimeout(() => {
+      const el = zoomCtrl.getContainer();
+      if (el) {
+        el.style.boxShadow = 'none';
+        el.style.setProperty('box-shadow', 'none', 'important');
+        el.querySelectorAll('a').forEach(a => {
+          a.style.setProperty('box-shadow', 'none', 'important');
+        });
+      }
+    }, 0);
 
     // Base layers: clean grayscale street map + aerial/satellite
     const streetLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
