@@ -54,7 +54,7 @@
     .leaflet-popup-content {
       margin: 0;
       width: auto !important;
-      font-size: 20px;
+      font-size: 28px;
       font-family: 'Public Sans', sans-serif;
       color: #222;
     }
@@ -65,12 +65,12 @@
       margin: 0;
     }
     .popup-text {
-      padding: 16px 22px 22px;
+      padding: 20px 28px 28px;
     }
     .popup-title {
       color: var(--brand-color);
       font-weight: 700;
-      font-size: 24px;
+      font-size: 34px;
     }
     .leaflet-popup-close-button {
       color: #fff !important;
@@ -168,7 +168,7 @@
                 <div>${props.timestamp || ''}</div>
               </div>
             `;
-            layer.bindPopup(popupContent, { maxWidth: 900, minWidth: 850 });
+            layer.bindPopup(popupContent, { maxWidth: 1700, minWidth: 1600, autoPanPadding: [20, 20] });
           }
         }).addTo(map);
 
