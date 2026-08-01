@@ -5,46 +5,54 @@
   <title>Coney Island Boardwalk Photo Repository</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
       --brand-color: rgb(0, 85, 100);
     }
 
-    html, body { margin: 0; padding: 0; height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    #map { width: 100%; height: 100%; }
+    html, body { margin: 0; padding: 0; height: 100%; font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif; }
+    #map { width: 100%; height: 100%; background: #f2f2f2; }
 
-    /* Title bar, upper left */
+    /* Title, upper left, no box */
     #map-title {
       position: absolute;
-      top: 16px;
-      left: 16px;
+      top: 20px;
+      left: 20px;
       z-index: 1000;
-      background: var(--brand-color);
-      color: #fff;
-      padding: 10px 18px;
-      border-radius: 6px;
-      font-size: 18px;
-      font-weight: 600;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-      letter-spacing: 0.3px;
+      color: var(--brand-color);
+      font-family: 'Public Sans', sans-serif;
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: 0.2px;
+      text-shadow: 0 1px 3px rgba(255,255,255,0.9), 0 0 8px rgba(255,255,255,0.6);
+      pointer-events: none;
+      line-height: 1.2;
+      max-width: 60vw;
     }
 
-    /* Speech-bubble style popups */
+    /* Speech-bubble style popups, no artifact on tip */
     .leaflet-popup-content-wrapper {
       background: #fff;
       border: 2px solid var(--brand-color);
       border-radius: 16px;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+    }
+    .leaflet-popup-tip-container {
+      width: 30px;
+      height: 15px;
     }
     .leaflet-popup-tip {
       background: #fff;
-      border: 2px solid var(--brand-color);
-      border-top: none;
-      border-left: none;
+      box-shadow: none;
+      border: none;
     }
     .leaflet-popup-content {
       margin: 12px 14px;
       font-size: 13px;
+      font-family: 'Public Sans', sans-serif;
       color: #222;
     }
     .popup-photo {
@@ -58,17 +66,32 @@
       font-weight: 700;
     }
 
-    /* Zoom control lower-left */
+    /* Clean, minimal zoom + layer controls, lower left */
     .leaflet-bottom.leaflet-left {
       display: flex;
       flex-direction: column-reverse;
-      gap: 6px;
+      gap: 8px;
+    }
+    .leaflet-control-zoom,
+    .leaflet-control-layers {
+      border: none !important;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2) !important;
+      border-radius: 6px !important;
+      overflow: hidden;
+    }
+    .leaflet-control-zoom a {
+      border: none !important;
+      background: #fff;
+      color: var(--brand-color);
+    }
+    .leaflet-control-zoom a:hover {
+      background: #f0f0f0;
     }
   </style>
 </head>
 <body>
   <div id="map"></div>
-  <div id="map-title">Coney Island Boardwalk Photo Repository</div>
+  <div id="map-title">Coney Island Boardwalk<br>Photo Repository</div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
@@ -79,10 +102,11 @@
     // Zoom control, bottom left
     L.control.zoom({ position: 'bottomleft' }).addTo(map);
 
-    // Base layers: street map + aerial/satellite
-    const streetLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap contributors',
-      maxZoom: 19
+    // Base layers: clean grayscale street map + aerial/satellite
+    const streetLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+      maxZoom: 19,
+      subdomains: 'abcd'
     });
 
     const aerialLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
