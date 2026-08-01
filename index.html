@@ -42,21 +42,36 @@
       padding: 0;
       overflow: hidden;
     }
-    /* Flip popup to render below the marker: reverse visual order so
-       the tip renders above the content box, arrow pointing up */
-    .leaflet-popup {
-      display: flex;
-      flex-direction: column-reverse;
-    }
+    /* Flip popup to render below the marker */
     .leaflet-popup-tip-container {
-      width: 30px;
-      height: 15px;
+      display: none !important;
     }
-    .leaflet-popup-tip {
-      background: #fff;
-      box-shadow: none;
-      border: none;
-      margin: 4px auto -14px;
+    .leaflet-popup-content-wrapper {
+      position: relative;
+    }
+    .leaflet-popup-content-wrapper::before {
+      content: '';
+      position: absolute;
+      top: -16px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0;
+      border-left: 13px solid transparent;
+      border-right: 13px solid transparent;
+      border-bottom: 16px solid var(--brand-color);
+    }
+    .leaflet-popup-content-wrapper::after {
+      content: '';
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0;
+      border-left: 11px solid transparent;
+      border-right: 11px solid transparent;
+      border-bottom: 12px solid #fff;
     }
     .leaflet-popup-content {
       margin: 0;
@@ -161,10 +176,9 @@
     map.addControl(new CustomZoom());
 
     // Flip popups to open below the marker instead of above.
-    // Leaflet always anchors the popup's bottom to the marker by default;
-    // after opening, we measure its rendered height and shift it down by
-    // exactly that amount, so the (now visually reordered) tip lands at
-    // the marker and the content box hangs below it.
+    // With Leaflet's own tip hidden, the container's height is just the
+    // photo box; shifting it down by that height puts the box's top edge
+    // (where our custom arrow is attached) right at the marker.
     map.on('popupopen', function (e) {
       const container = e.popup._container;
       if (container) {
