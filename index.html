@@ -25,12 +25,12 @@
     }
 
     html, body { margin: 0; padding: 0; height: 100%; font-family: 'Sohne', -apple-system, BlinkMacSystemFont, sans-serif; }
-    #map { position: absolute; top: 0; left: 0; right: 0; bottom: var(--footer-height); width: 100%; background: #f2f2f2; }
+    #map { position: absolute; top: var(--footer-height); left: 0; right: 0; bottom: 0; width: 100%; background: #f2f2f2; }
 
-    /* Footer bar, dark blue, spans bottom of screen */
+    /* Header bar, dark blue, spans top of screen */
     #map-footer {
       position: fixed;
-      bottom: 0;
+      top: 0;
       left: 0;
       right: 0;
       height: var(--footer-height);
@@ -46,7 +46,7 @@
     #map-title {
       color: var(--footer-green);
       font-family: "Sohne", sans-serif;
-      font-weight: 700;
+      font-weight: 400;
       font-size: 28px;
       line-height: 1.1;
       white-space: nowrap;
