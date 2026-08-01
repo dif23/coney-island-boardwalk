@@ -5,31 +5,61 @@
   <title>Coney Island Boardwalk Photo Repository</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
   <style>
-    :root {
-      --brand-color: rgb(0, 85, 100);
+    @font-face {
+      font-family: "Sohne";
+      src: url("fonts/Sohne-Buch.otf") format("opentype");
+      font-weight: 400;
+    }
+    @font-face {
+      font-family: "Sohne";
+      src: url("fonts/Sohne-Halbfett.otf") format("opentype");
+      font-weight: 700;
     }
 
-    html, body { margin: 0; padding: 0; height: 100%; font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif; }
-    #map { width: 100%; height: 100%; background: #f2f2f2; }
+    :root {
+      --brand-color: rgb(0, 85, 100);
+      --footer-bg: #005463;
+      --footer-green: #00ffb5;
+      --footer-height: 90px;
+    }
 
-    /* Title, upper left, no box, one line, normal weight, 2x bigger */
-    #map-title {
-      position: absolute;
-      top: 20px;
-      left: 20px;
+    html, body { margin: 0; padding: 0; height: 100%; font-family: 'Sohne', -apple-system, BlinkMacSystemFont, sans-serif; }
+    #map { position: absolute; top: 0; left: 0; right: 0; bottom: var(--footer-height); width: 100%; background: #f2f2f2; }
+
+    /* Footer bar, dark blue, spans bottom of screen */
+    #map-footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: var(--footer-height);
+      background: var(--footer-bg);
       z-index: 1000;
-      color: rgb(0, 255, 181);
-      font-family: 'Public Sans', sans-serif;
-      font-size: 56px;
-      font-weight: 400;
-      letter-spacing: 0.2px;
-      pointer-events: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      box-sizing: border-box;
+    }
+
+    #map-title {
+      color: var(--footer-green);
+      font-family: "Sohne", sans-serif;
+      font-weight: 700;
+      font-size: 28px;
       line-height: 1.1;
       white-space: nowrap;
+    }
+
+    #ost-logo-link {
+      display: block;
+      height: 32px;
+    }
+    #ost-logo-link img {
+      height: 100%;
+      width: auto;
+      display: block;
     }
 
     /* Speech-bubble popups: square corners, image fits flush, 2x size */
@@ -76,7 +106,7 @@
       margin: 0;
       width: auto !important;
       font-size: 18px;
-      font-family: 'Public Sans', sans-serif;
+      font-family: 'Sohne', sans-serif;
       color: #222;
     }
     .popup-photo {
@@ -124,7 +154,7 @@
       background: #fff;
       color: var(--brand-color);
       font-size: 20px;
-      font-family: 'Public Sans', sans-serif;
+      font-family: 'Sohne', sans-serif;
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -142,7 +172,12 @@
 </head>
 <body>
   <div id="map"></div>
-  <div id="map-title">Coney Island Boardwalk Photo Repository</div>
+  <div id="map-footer">
+    <div id="map-title">Coney Island Boardwalk Photo Repository</div>
+    <a id="ost-logo-link" href="https://orchardstreet.nyc" target="_blank" rel="noopener">
+      <img src="ost.svg" alt="Orchard Street NYC">
+    </a>
+  </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
