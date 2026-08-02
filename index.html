@@ -272,10 +272,10 @@
           style: function (feature) {
             const isPublic = feature.properties.PubPvt === 'Public';
             return {
-              color: 'rgb(0, 85, 100)',
-              weight: 1,
-              fillColor: isPublic ? 'rgb(0, 255, 181)' : 'rgb(0, 85, 100)',
-              fillOpacity: isPublic ? 0.25 : 0.12
+              color: '#ffffff',
+              weight: 0.75,
+              fillColor: isPublic ? '#7a2657' : '#de93c4',
+              fillOpacity: 0.45
             };
           },
           onEachFeature: function (feature, layer) {
