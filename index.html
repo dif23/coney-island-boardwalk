@@ -83,6 +83,36 @@
       border-radius: 0;
     }
 
+    #parcel-controls-box {
+      position: absolute;
+      top: calc(var(--footer-height) + 16px + 130px);
+      left: 16px;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.75);
+      border: 0.5pt solid var(--footer-bg);
+      color: var(--footer-bg);
+      font-family: "Sohne", sans-serif;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 1.4;
+      padding: 16px 20px;
+      max-width: 340px;
+      border-radius: 0;
+    }
+    #parcel-controls-box label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    #parcel-controls-box input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+      accent-color: var(--footer-bg);
+      cursor: pointer;
+    }
+
     /* Speech-bubble popups: square corners, image fits flush, 2x size */
     .leaflet-popup-content-wrapper {
       background: #fff;
@@ -151,12 +181,12 @@
     .parcel-popup {
       width: 620px;
       box-sizing: border-box;
-      padding: 14px 20px;
+      padding: 10px 18px;
       display: flex;
       flex-direction: column;
-      gap: 4px;
-      font-size: 16px;
-      line-height: 1.35;
+      gap: 2px;
+      font-size: 15px;
+      line-height: 1.2;
       color: var(--brand-color);
     }
     .parcel-line {
@@ -166,8 +196,8 @@
       color: var(--brand-color);
       text-transform: uppercase;
       font-weight: 700;
-      font-size: 18px;
-      margin-bottom: 4px;
+      font-size: 17px;
+      margin: 0 0 2px 0;
     }
     .parcel-label {
       font-weight: 700;
@@ -220,6 +250,11 @@
 <body>
   <div id="map"></div>
   <div id="instructions-box">Click a point to view a photo of that location on the Boardwalk. Click the photo to open the image in a new browser tab.</div>
+  <div id="parcel-controls-box">
+    Click on the parcels to see ownership. Toggle the public parcels versus private parcels by clicking the check boxes below.
+    <label><input type="checkbox" id="toggle-public" checked> Public Parcels On / Off</label>
+    <label><input type="checkbox" id="toggle-private" checked> Private Parcels On / Off</label>
+  </div>
   <div id="map-footer">
     <div id="map-title">Coney Island Boardwalk Photo Repository</div>
     <a id="ost-logo-link" href="https://orchardstreet.nyc" target="_blank" rel="noopener">
@@ -290,32 +325,71 @@
       { position: 'bottomleft', collapsed: true }
     ).addTo(map);
 
-    // Parcels layer (loads first, sits beneath the photo points)
+    // Parcels layer (split into public/private so they can be toggled independently)
+    let publicParcelsLayer, privateParcelsLayer, photoPointsLayer;
+
+    function parcelStyle(feature) {
+      const isPublic = feature.properties.PubPvt === 'Public';
+      return {
+        color: '#ffffff',
+        weight: 0.75,
+        fillColor: isPublic ? '#7a2657' : '#de93c4',
+        fillOpacity: 0.45
+      };
+    }
+
+    function parcelOnEachFeature(feature, layer) {
+      const p = feature.properties;
+      const popupContent = `
+        <div class="parcel-popup">
+          <div class="parcel-status">${p.PubPvt.toUpperCase()}</div>
+          <div class="parcel-line"><span class="parcel-label">Owner:</span> ${p.OwnerName}</div>
+          <div class="parcel-line"><span class="parcel-label">Address:</span> ${p.Address}</div>
+        </div>
+      `;
+      layer.bindPopup(popupContent, { maxWidth: 620, minWidth: 620, autoPan: false });
+    }
+
+    function reorderLayers() {
+      if (photoPointsLayer) {
+        photoPointsLayer.bringToFront();
+      }
+    }
+
     fetch('parcels.geojson')
       .then(res => res.json())
       .then(data => {
-        L.geoJSON(data, {
-          style: function (feature) {
-            const isPublic = feature.properties.PubPvt === 'Public';
-            return {
-              color: '#ffffff',
-              weight: 0.75,
-              fillColor: isPublic ? '#7a2657' : '#de93c4',
-              fillOpacity: 0.45
-            };
-          },
-          onEachFeature: function (feature, layer) {
-            const p = feature.properties;
-            const popupContent = `
-              <div class="parcel-popup">
-                <div class="parcel-status">${p.PubPvt.toUpperCase()}</div>
-                <div class="parcel-line"><span class="parcel-label">Owner:</span> ${p.OwnerName}</div>
-                <div class="parcel-line"><span class="parcel-label">Address:</span> ${p.Address}</div>
-              </div>
-            `;
-            layer.bindPopup(popupContent, { maxWidth: 620, minWidth: 620, autoPan: false });
-          }
+        publicParcelsLayer = L.geoJSON(data, {
+          filter: f => f.properties.PubPvt === 'Public',
+          style: parcelStyle,
+          onEachFeature: parcelOnEachFeature
         }).addTo(map);
+
+        privateParcelsLayer = L.geoJSON(data, {
+          filter: f => f.properties.PubPvt === 'Private',
+          style: parcelStyle,
+          onEachFeature: parcelOnEachFeature
+        }).addTo(map);
+
+        reorderLayers();
+
+        document.getElementById('toggle-public').addEventListener('change', function (e) {
+          if (e.target.checked) {
+            map.addLayer(publicParcelsLayer);
+          } else {
+            map.removeLayer(publicParcelsLayer);
+          }
+          reorderLayers();
+        });
+
+        document.getElementById('toggle-private').addEventListener('change', function (e) {
+          if (e.target.checked) {
+            map.addLayer(privateParcelsLayer);
+          } else {
+            map.removeLayer(privateParcelsLayer);
+          }
+          reorderLayers();
+        });
       })
       .catch(err => console.error('Error loading parcels.geojson:', err));
 
@@ -345,6 +419,9 @@
             layer.bindPopup(popupContent, { maxWidth: 1600, minWidth: 300, autoPan: false });
           }
         }).addTo(map);
+
+        photoPointsLayer = layer;
+        reorderLayers();
 
         map.fitBounds(layer.getBounds(), { padding: [60, 60], animate: false });
 
