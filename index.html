@@ -146,6 +146,28 @@
       font-weight: 700;
       font-size: 22px;
     }
+
+    /* Parcel popups: landscape rectangle, formatted status + labels */
+    .parcel-popup {
+      padding: 16px 20px;
+      min-height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 6px;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+    .parcel-status {
+      color: var(--brand-color);
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 4px;
+    }
+    .parcel-label {
+      font-weight: 700;
+    }
     .leaflet-popup-close-button {
       color: #fff !important;
       text-shadow: 0 1px 3px rgba(0,0,0,0.6);
@@ -281,14 +303,13 @@
           onEachFeature: function (feature, layer) {
             const p = feature.properties;
             const popupContent = `
-              <div class="popup-text">
-                <div class="popup-title">${p.Address}</div>
-                <div>${p.OwnerName}</div>
-                <div>Lot Area: ${p.LotArea.toLocaleString()} sq ft</div>
-                <div>${p.PubPvt}</div>
+              <div class="parcel-popup">
+                <div class="parcel-status">${p.PubPvt.toUpperCase()}</div>
+                <div><span class="parcel-label">Owner:</span> ${p.OwnerName}</div>
+                <div><span class="parcel-label">Address:</span> ${p.Address}</div>
               </div>
             `;
-            layer.bindPopup(popupContent, { maxWidth: 400, minWidth: 250, autoPan: false });
+            layer.bindPopup(popupContent, { maxWidth: 380, minWidth: 380, autoPan: false });
           }
         }).addTo(map);
       })
