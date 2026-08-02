@@ -264,6 +264,36 @@
       { position: 'bottomleft', collapsed: true }
     ).addTo(map);
 
+    // Parcels layer (loads first, sits beneath the photo points)
+    fetch('parcels.geojson')
+      .then(res => res.json())
+      .then(data => {
+        L.geoJSON(data, {
+          style: function (feature) {
+            const isPublic = feature.properties.PubPvt === 'Public';
+            return {
+              color: 'rgb(0, 85, 100)',
+              weight: 1,
+              fillColor: isPublic ? 'rgb(0, 255, 181)' : 'rgb(0, 85, 100)',
+              fillOpacity: isPublic ? 0.25 : 0.12
+            };
+          },
+          onEachFeature: function (feature, layer) {
+            const p = feature.properties;
+            const popupContent = `
+              <div class="popup-text">
+                <div class="popup-title">${p.Address}</div>
+                <div>${p.OwnerName}</div>
+                <div>Lot Area: ${p.LotArea.toLocaleString()} sq ft</div>
+                <div>${p.PubPvt}</div>
+              </div>
+            `;
+            layer.bindPopup(popupContent, { maxWidth: 400, minWidth: 250, autoPan: false });
+          }
+        }).addTo(map);
+      })
+      .catch(err => console.error('Error loading parcels.geojson:', err));
+
     fetch('points.geojson')
       .then(res => res.json())
       .then(data => {
