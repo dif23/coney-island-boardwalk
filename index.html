@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Coney Island Boardwalk Photo Repository</title>
+  <title>Coney Island Boardwalk Site Data Repository</title>
   <link rel="icon" type="image/png" href="favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -66,11 +66,17 @@
     }
 
     /* Instruction box, upper-left of the map */
-    #instructions-box {
+    #instructions-container {
       position: absolute;
       top: calc(var(--footer-height) + 16px);
       left: 16px;
       z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    #instructions-box {
       background: rgba(255, 255, 255, 0.75);
       border: 0.5pt solid var(--footer-bg);
       color: var(--footer-bg);
@@ -84,10 +90,6 @@
     }
 
     #parcel-controls-box {
-      position: absolute;
-      top: calc(var(--footer-height) + 16px + 130px);
-      left: 16px;
-      z-index: 1000;
       background: rgba(255, 255, 255, 0.75);
       border: 0.5pt solid var(--footer-bg);
       color: var(--footer-bg);
@@ -115,7 +117,7 @@
 
     /* Speech-bubble popups: square corners, image fits flush, 2x size */
     .leaflet-popup-content-wrapper {
-      background: #fff;
+      background: rgba(255, 255, 255, 0.75);
       border: 2px solid var(--brand-color);
       border-radius: 0;
       box-shadow: 0 4px 14px rgba(0,0,0,0.25);
@@ -174,10 +176,14 @@
     .popup-text {
       padding: 13px 18px 18px;
     }
+    .popup-text {
+      color: var(--brand-color);
+      font-size: 15px;
+    }
     .popup-title {
       color: var(--brand-color);
       font-weight: 700;
-      font-size: 22px;
+      font-size: 15px;
     }
 
     /* Parcel popups: landscape rectangle, formatted status + labels */
@@ -253,14 +259,16 @@
 </head>
 <body>
   <div id="map"></div>
-  <div id="instructions-box">Click a point to view a photo of that location on the Boardwalk. Click the photo to open the image in a new browser tab.</div>
-  <div id="parcel-controls-box">
-    Click on the parcels to see ownership. Toggle the public parcels versus private parcels by clicking the check boxes below.
-    <label><input type="checkbox" id="toggle-public" checked> Public Parcels On / Off</label>
-    <label><input type="checkbox" id="toggle-private" checked> Private Parcels On / Off</label>
+  <div id="instructions-container">
+    <div id="instructions-box">Click a point to view a photo of that location on the Boardwalk. Click the photo to open the image in a new browser tab.</div>
+    <div id="parcel-controls-box">
+      Click on the parcels to see ownership. Toggle the public parcels versus private parcels by clicking the check boxes below.
+      <label><input type="checkbox" id="toggle-public" checked> Public Parcels On / Off</label>
+      <label><input type="checkbox" id="toggle-private" checked> Private Parcels On / Off</label>
+    </div>
   </div>
   <div id="map-footer">
-    <div id="map-title">Coney Island Boardwalk Photo Repository</div>
+    <div id="map-title">Coney Island Boardwalk Site Data Repository</div>
     <a id="ost-logo-link" href="https://orchardstreet.nyc" target="_blank" rel="noopener">
       <img src="ost.svg" alt="Orchard Street NYC">
     </a>
