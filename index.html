@@ -149,7 +149,7 @@
 
     /* Parcel popups: landscape rectangle, formatted status + labels */
     .parcel-popup {
-      width: 380px;
+      width: 620px;
       box-sizing: border-box;
       padding: 16px 20px;
       min-height: 100px;
@@ -161,10 +161,7 @@
       line-height: 1.4;
       color: var(--brand-color);
     }
-    .parcel-details {
-      display: flex;
-      flex-direction: row;
-      gap: 24px;
+    .parcel-line {
       white-space: nowrap;
     }
     .parcel-status {
@@ -314,11 +311,11 @@
             const popupContent = `
               <div class="parcel-popup">
                 <div class="parcel-status">${p.PubPvt.toUpperCase()}</div>
-                <div><span class="parcel-label">Owner:</span> ${p.OwnerName}</div>
-                <div><span class="parcel-label">Address:</span> ${p.Address}</div>
+                <div class="parcel-line"><span class="parcel-label">Owner:</span> ${p.OwnerName}</div>
+                <div class="parcel-line"><span class="parcel-label">Address:</span> ${p.Address}</div>
               </div>
             `;
-            layer.bindPopup(popupContent, { maxWidth: 380, minWidth: 380, autoPan: false });
+            layer.bindPopup(popupContent, { maxWidth: 620, minWidth: 620, autoPan: false });
           }
         }).addTo(map);
       })
